@@ -1,0 +1,61 @@
+// techniques
+.techniques {
+    margin: 50px auto 0;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tech-box {
+    width: 30%;
+    margin-bottom: 50px;
+}
+.image-box {
+    display: flex;
+    justify-content: center;
+}
+.tech-image {
+    max-width: 150px;
+    max-height: 150px;
+    background-color: #253341;
+}
+.description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.add a:hover {
+    color: #E0245E;
+}
+
+
+// techniques#show
+.tech-show-box {
+    display: flex;
+    justify-content: space-between;
+}
+.tech-show-image {
+    width: 300px;
+    height: 300px;
+}
+.tech-contents {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.tech-contents .detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.tech-contents .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.tech-contents .buttons .delete a:hover {
+    color: #E0245E;
+}

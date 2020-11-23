@@ -1,0 +1,36 @@
+.center-text {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.form-box {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.form-box #field{
+    width: 100%;
+    height:50px;
+    padding:0 10px;
+    border-radius:25px;
+    border: none;
+    background: #253341;
+    color: white;
+    outline: 0;
+}
+.btn {
+    height:50px;
+    width: 250px;
+    margin-top: 20px;
+    padding:0 10px; 
+    border-radius:25px;
+    outline:0;
+    border: none;
+    background: rgba(29,161,242,1.00);
+    color: white;
+    font-weight: bold;
+}
+.btn:hover {
+    opacity: 50%;
+}

@@ -1,0 +1,46 @@
+
+<div class="width90">
+    <div class="height100">
+        <h1 class="pagetitle">技をさがす</h1>
+            
+        <div class="form-box">
+            <%= form_with(scope: :search, url: techniques_path, method: :get, local: true) do |f| %>
+                <%= f.radio_button :event, "ゆか" %><%= f.label "ゆか" %>
+                <%= f.radio_button :event, "あん馬" %><%= f.label "あん馬" %>
+                <%= f.radio_button :event, "つり輪" %><%= f.label "つり輪" %>
+                <%= f.radio_button :event, "跳馬" %><%= f.label "跳馬" %>
+                <%= f.radio_button :event, "平行棒" %><%= f.label "平行棒" %>
+                <%= f.radio_button :event, "鉄棒" %><%= f.label "鉄棒" %>
+                <br><br>
+                <%= f.radio_button :difficulty, "A難度" %><%= f.label "A難度" %>
+                <%= f.radio_button :difficulty, "B難度" %><%= f.label "B難度" %>
+                <%= f.radio_button :difficulty, "C難度" %><%= f.label "C難度" %>
+                <%= f.radio_button :difficulty, "D難度" %><%= f.label "D難度" %>
+                <%= f.radio_button :difficulty, "E難度" %><%= f.label "E難度" %>
+                <%= f.radio_button :difficulty, "F難度" %><%= f.label "F難度" %>
+                <%= f.radio_button :difficulty, "G難度" %><%= f.label "G難度" %>
+                <%= f.radio_button :difficulty, "H難度" %><%= f.label "H難度" %>
+                <%= f.radio_button :difficulty, "I難度" %><%= f.label "I難度" %>
+                <%= f.radio_button :difficulty, "J難度" %><%= f.label "J難度" %>
+                <br><br>
+                <%= f.radio_button :group2, "グループI" %><%= f.label "グループI" %>
+                <%= f.radio_button :group2, "グループII" %><%= f.label "グループII" %>
+                <%= f.radio_button :group2, "グループIII" %><%= f.label "グループIII" %>
+                <%= f.radio_button :group2, "グループIV" %><%= f.label "グループIV" %>
+                <br><br>
+                <%= f.text_field :name, class: "form-control fa", id: "field", placeholder: "\uF002 技名を入力", value: @search_params[:name] %>
+                <br><br>
+                <%= submit_tag '検索', class: "btn" %>
+            <% end %>
+        </div>
+    </div>
+
+    <h1 class="subtitle">Results</h1>
+
+    <div class="techniques">
+        <%= render :partial => "techniques", :collection => @techniques, :as => "technique" %>
+    </div>
+
+    <h1 class="subtitle"><%= link_to "技が見つからないときは", new_technique_path %></h1>
+    <br>
+</div>

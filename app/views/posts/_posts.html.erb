@@ -1,0 +1,31 @@
+<div class="post">
+    <div class="post-info">
+        <div class="userimage">
+            <% if post.user.image? %>
+                <a href="/users/<%= post.user.id %>"><%= image_tag post.user.image_url, class: "profile-image-s" %></a>
+            <% else %>
+                <a href="/users/<%= post.user.id %>"><i class="fab fa-battle-net fa-4x profile-image-s"></i></a>
+            <% end %>
+        </div>
+
+        <div class="userdetails">
+            <div class="username">
+                <a href="/users/<%= post.user.id %>"><%= post.user.name %></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="body">
+        <a href="/posts/<%= post.id %>"><%= post.body %></a>
+    </div>
+
+    <div class="post-video">
+        <a href="/posts/<%= post.id %>">
+            <%= video_tag(post.video.to_s, muted: true, autoplay: true, loop: true, width: "100%", class: "video") if post.video? %>
+        </a>
+    </div>
+
+    <div class="time">
+        <%= post.created_at.to_s(:datetime_jp) %>
+    </div>
+</div>

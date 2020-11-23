@@ -1,0 +1,54 @@
+<div class="width90">
+  <div class="subtitle"">
+    <h2>
+        <% if @another_entry.user.image? %>
+          <a href="/users/<%= @another_entry.user.id %>"><%= image_tag @another_entry.user.image_url, class: "profile-image-s" %></a>
+        <% end %>
+    </h2>
+    <h2><a href="/users/<%= @another_entry.user.id %>"><%= @another_entry.user.name %>さん</a>とのチャット</h2>
+  </div>
+
+  <div class="chats">
+    <% if @messages.present? %>
+      <% @messages.each do |m| %>
+        <% if m.user.id != current_user.id %>
+          <div class="chat-opponent">
+            <% if m.user.image? %>
+                <a href="/users/<%= @another_entry.user.id %>"><%= image_tag m.user.image_url, size: "50x50", class: "profile-image-s" %></a>
+            <% else %>
+                <a href="/users/<%= @another_entry.user.id %>"><i class="fab fa-battle-net fa-4x profile-image-s"></i></a>
+            <% end %>
+            <div class="contents">
+                <p class="message"><%= m.message %></p>
+                <p class="time"><%= m.created_at.to_s(:datetime_jp) %></p>
+            </div>
+          </div>
+        <% else %>
+          <div class="chat-mine">
+            <div class="delete-button">
+              <%= link_to message_path(m.id), method: :delete do %>
+                <p><i class="fas fa-trash-alt fa-3x"></i></p>
+              <% end %>
+            </div>
+            <div class="contents">
+              <p class="message"><%= m.message %></p>
+              <p class="time"><%= m.created_at.strftime("%Y年%m月%d日 %H:%M")%></p>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+  </div>
+
+  <p id="bottom"></p>
+    
+  <div class="send-dm">
+    <%= form_for @message do |f| %>
+      <%= f.text_field :message, placeholder: "新しいメッセージを作成" , class:"form" %>
+      <%= f.hidden_field :room_id, value: @room.id %>
+      <%= f.button :type => "submit", class: 'submit' do %>
+        <i class="fas fa-paper-plane"></i>
+      <% end %>
+    <% end %>
+  </div>
+</div>

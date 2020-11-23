@@ -1,0 +1,115 @@
+<div class="width90"">
+    <div class="post-show">
+        <div class="up">
+            <div class="post">
+                <div class="post-info">
+                    <div class="userimage">
+                        <% if @post.user.image? %>
+                            <a href="/users/<%= @post.user.id %>"><%= image_tag @post.user.image_url, class: "profile-image-s" if @post.user.image? %></a>
+                        <% else %>
+                            <a href="/users/<%= @post.user.id %>"><i class="fab fa-battle-net fa-4x profile-image-s"></i></a>
+                        <% end %>
+                    </div>
+
+                    <div class="userdetails">
+                        <div class="username">
+                            <a href="/users/<%= @post.user.id %>"><%= @post.user.name %></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="body">
+                    <%= @post.body %>
+                </div>
+
+                <div class="post-video">
+                    <%= video_tag(@post.video.to_s, muted: true, autoplay: true, loop: true, width: "100%", class: "video") if @post.video? %>
+                </div>
+
+                <div class="time">
+                    <%= @post.created_at.to_s(:datetime_jp) %>
+                </div>
+
+                <br>
+
+                <h3 class="like-count">いいねされた数：<%= @post.likes.count %></h3>
+            </div>
+
+            <div class="buttons">
+                <% if user_signed_in? %>
+                    <div class="add">
+                        <div class="like">
+                            <% if current_user.already_liked?(@post) %>
+                                <%=link_to post_like_path(@post), method: :delete, :style=>"color:#E0245E;" do%>
+                                    <i class="fas fa-heart fa-5x"></i>
+                                    <p>いいねを取り消す</p>
+                                <%end%>
+                            <% else %>
+                                <%=link_to post_likes_path(@post), method: :post do%>
+                                    <i class="far fa-heart fa-5x"></i>
+                                    <p>いいねする</p>
+                                <%end%>
+                            <% end %>
+                        </div>
+                    </div>
+                    <div class="edit">
+                        <% if @post.user.id == current_user.id %>
+                            <%= link_to edit_post_path(@post.id) do %>
+                                <i class="fas fa-edit fa-3x"></i>
+                                <p>投稿を編集する</p>
+                            <% end %>
+                        <% end %>
+                    </div>
+                    <div class="delete">
+                        <% if @post.user.id == current_user.id %>
+                            <%= link_to post_path(@post.id), method: :delete do %>
+                                <i class="fas fa-trash-alt fa-3x"></i>
+                                <p>投稿を削除する</p>
+                            <% end %>
+                        <% end %>
+                    </div>
+                <% end %>
+            </div>
+        </div>
+
+        <p class="border"></p>
+
+        <h2 class="subtitle">コメント</h2>
+
+        <div class="chats">
+            <% if @comments.present? %>
+                <% @comments.each do |c| %>
+                    <div class="chat-opponent comments">
+                        <% if c.user.image? %>
+                            <a href="/users/<%= c.user.id %>"><%= image_tag c.user.image_url, class: "profile-image-s" %></a>
+                        <% else %>
+                            <a href="/users/<%= c.user.id %>"><i class="fab fa-battle-net fa-4x profile-image-s"></i></a>
+                        <% end %>
+                        
+                        <div class="contents">
+                            <p class="name"><%= c.user.name unless c.user.blank? %></p>
+                            <p class="message"><%= c.body %></p>
+                            <p class="time"><%= c.created_at.to_s(:datetime_jp) %></p>
+                        </div>
+                        
+                        <% if user_signed_in? && c.user_id == current_user.id %>
+                            <div class="delete-button">
+                                <%= link_to post_comment_path(@post, c.id), method: :delete do %>
+                                    <p><i class="fas fa-trash-alt fa-3x"></i></p>
+                                <% end %>
+                            </div>
+                        <% end %>
+                    </div>
+                <% end %>
+            <% end %>
+
+            <% if user_signed_in? %>
+                <div class="send-comment">
+                    <%= form_with(model: [@post, @comment], local: true) do |f| %>
+                        <%= f.text_field :body, class: "form", placeholder: "コメントを入力" %>
+                    <% end %>
+                </div>
+            <% end %>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gymulation</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <%= link_to root_path do %>
+        <div class="header-title-box">
+            <i class="fab fa-battle-net fa-5x"></i>
+            <h1 class="logo"> Gymulation</h1>
+        </div>
+      <% end %>
+      
+      <div class="header-list">
+        <ul class="menu">
+          <li class="menu-first">
+            <%= link_to "選手をさがす", search_users_path %></li>
+          </li>
+
+          <% if user_signed_in? %>
+            <li class="menu-first min-width">
+              <p class="init-bottom">技</p>
+              <ul class="menu-second">
+                <li><%= link_to "技を登録する", techniques_path %></li>
+                <li><%= link_to "技を申請する", new_technique_path %></li>
+                <li><%= link_to "登録した技を見る", user_favorites_path(current_user.id) %></li>
+              </ul>
+            </li>
+          <% else %>
+            <li class="menu-first"><%= link_to "技をさがす", techniques_path %></li>
+          <% end %>
+
+          <% if user_signed_in? %>
+            <li class="menu-first min-width">
+              <p class="init-bottom">投稿</p>
+              <ul class="menu-second">
+                <li><%= link_to "動画を見つける", posts_path %></li>
+                <li><%= link_to "動画を投稿する", new_post_path %></li>
+              </ul>
+            </li>
+          <% else %>
+            <li class="menu-first"><%= link_to "動画をさがす", posts_path %></li>
+          <% end %>
+          
+          <% if user_signed_in? %>
+            <li class="menu-first min-width">
+              <p class="init-bottom">マイページ</p>
+              <ul class="menu-second">
+                <li><%= link_to "マイページ", user_path(current_user.id) %></li>
+                <li><%= link_to "メッセージ", rooms_path %></li>
+              </ul>
+            </li>
+          <% else %>
+            <li class="menu-first"><%= link_to "ログイン", new_user_session_path %></li>
+          <% end %>
+
+          <li class="menu-first">
+            <% if user_signed_in? %>
+              <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+            <% else %>
+              <%= link_to "会員登録", new_user_registration_path %>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+  </body>
+</html>

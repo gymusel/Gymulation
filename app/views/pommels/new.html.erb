@@ -1,0 +1,22 @@
+<div class="width90 height100">
+    <h1 class="subtitle">あん馬の演技構成を組む</h1>
+
+    <div class="form-box">
+        <%= form_for(@pommel, :url => { controller:'pommels', action:'create'}) do |f| %>
+            <%= f.collection_select :first, @favorite_pommels.all, :id, :name, {prompt: "１番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :second, @favorite_pommels.all, :id, :name, {prompt: "2番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :third, @favorite_pommels.all, :id, :name, {prompt: "3番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :fourth, @favorite_pommels.all, :id, :name, {prompt: "4番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :fifth, @favorite_pommels.all, :id, :name, {prompt: "5番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :sixth, @favorite_pommels.all, :id, :name, {prompt: "6番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :seventh, @favorite_pommels.all, :id, :name, {prompt: "7番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :eighth, @favorite_pommels.all, :id, :name, {prompt: "8番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :ninth, @favorite_pommels.all, :id, :name, {prompt: "9番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :tenth, @favorite_pommels.all, :id, :name, {prompt: "１0番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+        
+            <br><br>
+            <%= f.submit "送信", class: "btn" %>
+            <br><br>
+        <% end %>
+    </div>
+</div>

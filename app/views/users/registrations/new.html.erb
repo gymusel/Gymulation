@@ -1,0 +1,38 @@
+<div class="front-devise">
+  <h2 class="subtitle">Sign up</h2>
+
+  <div class="login">
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+      <%= render "users/shared/error_messages", resource: resource %>
+      <div class="field">
+        <%= f.label :ユーザーネーム %><br />
+        <%= f.text_field :name, autofocus: true, class: "form", placeholder: "ユーザー名を入力" %>
+      </div>
+
+      <div class="field">
+        <%= f.label :メールアドレス %><br />
+        <%= f.email_field :email, autocomplete: "email", class: "form", placeholder: "メールアドレスを入力" %>
+      </div>
+
+      <div class="field">
+        <%= f.label :パスワード %>
+        <% if @minimum_password_length %>
+          <em>(<%= @minimum_password_length %>文字以上)</em>
+        <% end %><br />
+        <%= f.password_field :password, autocomplete: "new-password", class: "form", placeholder: "パスワードを入力" %>
+      </div>
+
+      <div class="field">
+        <%= f.label :パスワード（確認） %><br />
+        <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form", placeholder: "パスワードを入力（確認）" %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit "Sign up", class: "button" %>
+      </div>
+    <% end %>
+    
+    <br>
+    <p class="links"><%= render "users/shared/links" %></p>
+  </div>
+</div>

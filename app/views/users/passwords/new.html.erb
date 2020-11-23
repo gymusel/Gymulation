@@ -1,0 +1,20 @@
+<div class="front-devise">
+  <h2 class="subtitle">パスワードを忘れたときは</h2>
+
+  <div class="login">
+    <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+      <%= render "users/shared/error_messages", resource: resource %>
+      <div class="field">
+        <%= f.label :メールアドレス %><br />
+        <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form", placeholder: "メールアドレスを入力" %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit "メールを送信する", class: "button" %>
+      </div>
+    <% end %>
+
+    <br>
+    <p class="links"><%= render "users/shared/links" %></p>
+  </div>
+</div>

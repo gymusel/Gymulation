@@ -1,0 +1,83 @@
+// index
+.components {
+    display: flex;
+    flex-wrap: wrap;
+    // margin-bottom: 50px;
+}
+.component {
+    box-sizing: border-box;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 15px;
+    @media print, screen and (min-width: 767px) {
+      flex-basis: 20%;
+      max-width: 20%;
+      padding: 15px;
+    }
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.component .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    // margin-right: 10px;
+}
+.component .difficulty {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid thin;
+    border-radius: 50%;
+}
+.component .group {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid thin;
+    margin-bottom: 25px;
+}
+.component .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.component .image {
+    width: 150px;
+    height: 150px;
+}
+.dscore-tips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -50px 0 50px;
+}
+
+//vault
+.vault-performance {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+
+// form
+.event-field {
+    height:50px;
+    width: 500px;
+    margin: 10px;
+    padding:0 10px; 
+    border-radius:20px;
+    border: none;
+    background: #253341;
+    color: white;
+    outline: 0;
+}

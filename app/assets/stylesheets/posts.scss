@@ -1,0 +1,67 @@
+// posts#index
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  @media print, screen and (min-width: 1000px) {
+    margin: 0 -20px;
+  }
+}
+.post {
+  box-sizing: border-box;
+  flex-basis: 50%;
+  max-width: 50%;
+  padding: 10px;
+  @media print, screen and (min-width: 1000px) {
+    flex-basis: 33.3%;
+    max-width: 33.3%;
+    padding: 20px;
+  }
+}
+.post-info {
+  display: flex;
+  align-items: center;
+}
+.post .body {
+  padding: 0 0 15px 70px;
+}
+
+
+// posts#show
+.post-show .up {
+  display: flex;
+  align-items: center;
+}
+.post-show .buttons {
+  margin: 0px 40px;
+  text-align: center;
+}
+.fa-stack-1x {
+  // font-size: 0.9em;
+  font-family: monospace;
+  // margin-top: 8px;
+}
+.post-show .buttons .edit {
+  margin: 50px 0;
+}
+.post-show .buttons .delete a:hover {
+  color: #E0245E;
+}
+.chats .comments:hover a {
+  display: block;
+  align-items: flex-end;
+}
+.send-comment {
+  // border-top: thin solid #253341;
+  // padding: 15px;
+}
+.send-comment .form {
+  height:50px;
+  width: 100%;
+  padding:0 10px; 
+  border-radius:20px;
+  border: none;
+  background: #253341;
+  color: white;
+  outline: 0;
+}

@@ -1,0 +1,17 @@
+<div class="width90">
+    <h1 class="pagetitle">メッセージ一覧</h1>
+    <div class="rooms">
+        <% @anotherEntries.order(updated_at: :desc).each do |e| %>
+            <div class="room">
+                <%= link_to room_path(e.room.id, anchor: 'bottom') do %>
+                    <% if e.user.image? %>
+                        <%= image_tag e.user.image_url, class: "profile-image-s" %>
+                    <% else %>
+                        <i class="fab fa-battle-net fa-4x profile-image-s"></i>
+                    <% end %>
+                    <h2><%= e.user.name %>さん</h2>
+                <% end %>
+            </div>
+        <% end %>
+    </div>
+</div>

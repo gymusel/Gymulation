@@ -1,0 +1,26 @@
+<%= link_to technique_path(technique.id) do %>
+    <div class="tech-box">
+        <div class="image-box">
+            <%= image_tag technique.image_url, class: "tech-image" if technique.image? %>
+        </div>
+
+        <div class="description">
+            <%= link_to technique_path(technique.id) do %>
+                <h2 class="name"><%= technique.name %></h2>
+            <% end %>
+            <div class="add">
+                <% if user_signed_in? %>
+                    <% if technique.favorited_by?(@user) %>
+                        <%= link_to technique_favorite_path(id: technique.id, technique_id: technique.id), method: :delete, :style=>"color:#E0245E;" do %>
+                            <i class="fas fa-heart fa-2x"></i>
+                        <% end %>
+                    <% else %>
+                        <%= link_to technique_favorites_path(id: technique.id, technique_id: technique.id), method: :post do %>
+                            <i class="far fa-heart fa-2x"></i>
+                        <% end %>
+                    <% end %>
+                <% end %>
+            </div>
+        </div>
+    </div>
+<% end %>

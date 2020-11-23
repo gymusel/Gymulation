@@ -1,0 +1,52 @@
+<%= link_to user_path(user.id) do %>
+    <div class="profile-box">
+        <div class="image-box">
+            <% if user.image? %>
+                <%= image_tag user.image_url, class: "profile-image-m" %>
+            <% else %>
+                <i class="fab fa-battle-net fa-8x profile-image-m"></i>
+            <% end %>
+        </div>
+
+        <div class="info-box">
+            <div class="name">
+                <h1><%= user.name %></h1>
+            </div>
+
+            <div class="details">
+                <div class="follower">
+                    <a href="<%= following_user_path(user) %>">
+                        <%= user.following.count %> following
+                    </a>
+                    <a href="<%= follower_user_path(user) %>">
+                        <%= user.follower.count %> followers
+                    </a>
+                </div>
+
+                <div class="d">
+                    <p>Dスコア 21.3</p>
+                </div>
+
+                <div class="follow">
+                    <% if user_signed_in? %>
+                        <% unless user == current_user %>
+                            <% if current_user.following?(user) %>
+                                <%= link_to unfollow_path(user.id), method: :delete, :style=>"color:#E0245E;" do %>
+                                    <i class="fas fa-heart fa-3x"></i>
+                                <% end %>
+                            <% else %>
+                                <%= link_to follow_path(user.id), method: :post do %>
+                                    <i class="far fa-heart fa-3x"></i>
+                                <% end %>
+                            <% end %>
+                        <% end %>
+                    <% end %>
+                </div>
+            </div>
+
+            <div class="text">
+                <p><%= user.profile %></p>
+            </div>
+        </div>
+    </div>
+<% end %>

@@ -1,0 +1,23 @@
+<div class="width90 height100">
+    <h1 class="subtitle">鉄棒の演技構成を組みなおす</h1>
+
+    <div class="form-box">
+        <%= form_for(@horizontal, :url => { controller:'horizontals', action:'update'}) do |f| %>
+            <%= f.collection_select :first, @favorite_horizontals.all, :id, :name, {prompt: "１番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :second, @favorite_horizontals.all, :id, :name, {prompt: "2番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :third, @favorite_horizontals.all, :id, :name, {prompt: "3番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :fourth, @favorite_horizontals.all, :id, :name, {prompt: "4番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :fifth, @favorite_horizontals.all, :id, :name, {prompt: "5番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :sixth, @favorite_horizontals.all, :id, :name, {prompt: "6番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :seventh, @favorite_horizontals.all, :id, :name, {prompt: "7番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :eighth, @favorite_horizontals.all, :id, :name, {prompt: "8番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :ninth, @favorite_horizontals.all, :id, :name, {prompt: "9番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :tenth, @favorite_horizontals.all, :id, :name, {prompt: "１0番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.number_field :cv, min: "0", step: "0.1", class: "event-field", placeholder: "組み合わせ加点がある場合は加点分の点数を入力" %>
+        
+            <br><br>
+            <%= f.submit "送信", class: "btn" %>
+            <br><br>
+        <% end %>
+    </div>
+</div>

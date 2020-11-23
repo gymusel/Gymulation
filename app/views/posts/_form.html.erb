@@ -1,0 +1,9 @@
+<%= form_for @post do |f| %>
+    <br>
+    <%= f.file_field :video, :accept => 'video/*' %>
+    <br><br>
+    <%= f.text_field :body, :placeholder => "動画についての説明を入力", id: "field" %>
+    <br><br>
+    <%= f.submit "送信", class: "btn" %>
+    <br><br>
+<% end %>

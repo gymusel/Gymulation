@@ -1,0 +1,2 @@
+module HorizontalsHelper
+end

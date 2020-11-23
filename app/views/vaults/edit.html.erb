@@ -1,0 +1,13 @@
+<div class="width90 height100">
+    <h1 class="subtitle">跳馬の演技構成を組みなおす</h1>
+
+    <div class="form-box">
+        <%= form_for(@vault, :url => { controller:'vaults', action:'update'}) do |f| %>
+            <%= f.collection_select :first, @favorite_vaults.all, :id, :name, {prompt: "技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+        
+            <br><br>
+            <%= f.submit "送信", class: "btn" %>
+            <br><br>
+        <% end %>
+    </div>
+</div>

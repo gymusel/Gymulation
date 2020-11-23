@@ -1,0 +1,26 @@
+<div class="width90 height100">
+    <h1 class="subtitle">ゆかの演技構成を組みなおす</h1>
+
+    <div class="form-box">
+        <%= form_for(@floor, :url => { controller:'floors', action:'update'}) do |f| %>
+            <%= f.collection_select :first, @favorite_floors.all, :id, :name, {prompt: "１番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :second, @favorite_floors.all, :id, :name, {prompt: "2番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :third, @favorite_floors.all, :id, :name, {prompt: "3番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :fourth, @favorite_floors.all, :id, :name, {prompt: "4番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :fifth, @favorite_floors.all, :id, :name, {prompt: "5番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :sixth, @favorite_floors.all, :id, :name, {prompt: "6番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :seventh, @favorite_floors.all, :id, :name, {prompt: "7番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :eighth, @favorite_floors.all, :id, :name, {prompt: "8番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :ninth, @favorite_floors.all, :id, :name, {prompt: "9番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.collection_select :tenth, @favorite_floors.all, :id, :name, {prompt: "１0番目の技をお気に入りリストから選ぶ"}, {class: "event-field"} %>
+            <%= f.number_field :cv, min: "0", max: "0.4", step: "0.1", class: "event-field", placeholder: "組み合わせ加点がある場合は加点分の点数を入力" %>
+            
+            <br><br>
+            <%= f.check_box :double, {}, 1, 0 %>
+            <%= f.label(:double, "演技構成に２回宙返りもしくは３回宙返り系の技が入っている")  %>
+            <br><br>
+            <%= f.submit "送信", class: "btn" %>
+            <br><br>
+        <% end %>
+    </div>
+</div>

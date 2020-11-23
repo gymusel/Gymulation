@@ -1,0 +1,100 @@
+.hello-gymulation {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.hello-gymulation .layer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: image-url("7gymnast.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(7,11,22, 0.4);
+    background-blend-mode: darken;
+    -webkit-animation: zoom 5s forwards;
+    animation: zoom 5s forwards;
+}
+@keyframes zoom {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+.title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-box i {
+    position: absolute;
+    animation: fadeInOpacity 3.5s ease-out 1.5s forwards;
+    opacity: 0;
+    // transition: 5s;
+    // transform: rotateZ( 0deg );
+}
+.title-box:hover i {
+    // transform: rotateZ( 3600deg );
+}
+@keyframes fadeInOpacity{
+    0%{
+        opacity: 0;
+        transform: rotateZ( 0deg );
+    }
+    100%{
+        opacity: 30%;
+        transform: rotateZ( 180deg );
+    }
+}
+.logo {
+    padding-bottom: 5px;
+    border-bottom: solid;
+    font-size: 80px;
+    transform: scale(1, 1.3);
+    font-weight: 400px;
+    line-height: 60px;
+    font-family: "Noto Serif JP", "Noto Serif", serif;
+    animation: fadeIn 3.5s ease-out 1.5s forwards;
+    opacity: 0;
+}
+
+.second-page {
+    height: 570px;
+    display: flex;
+}
+.text-box {
+    padding: 100px 0 100px 100px;
+    color: white;
+}
+.text-box h1 {
+    font-size: 4em;
+}
+.protector {
+    background-color: grey;
+    margin: 0 100px 0 auto;
+}
+.items .item {
+    display: flex;
+    margin: 0;
+    color: white;
+}
+.items .item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+.items .item-img {
+    width: 50%;
+    padding: 0 40px;
+    margin: 30px;
+}
+.item-body {
+    margin: 50px 30px;
+}

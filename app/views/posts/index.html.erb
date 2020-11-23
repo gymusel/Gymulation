@@ -1,0 +1,19 @@
+<div class="width90"">
+    <div class="height100">
+        <h1 class="pagetitle">投稿を検索</h1>
+
+        <p class="center-text">気になる動画を見つけよう</p>
+
+        <div class="form-box">
+            <%= form_tag({controller:"posts",action:"index"}, method: :get, class: "search") do %>
+                <%= text_field_tag :search, '', class: "form-control fa", id: "field", placeholder: "\uF002 動画を検索" %>
+            <% end %>
+        </div>
+    </div>
+
+    <h1 class="subtitle">Results</h1>
+    
+    <div class="posts">
+        <%= render :partial => "posts", :collection => @posts.order(created_at: :desc), :as => "post" %>
+    </div>
+</div>

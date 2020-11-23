@@ -1,0 +1,7 @@
+<div class="width90">
+    <h1 class="subtitle"><a href="/users/<%= @user.id %>"><%= @user.name %></a>さんがフォローしているユーザー</h1>
+
+    <div class="results">
+        <%= render :partial => "users", :collection => @user.following_user, :as => "user" %>
+    </div>
+</div>

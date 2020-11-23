@@ -1,0 +1,7 @@
+<div class="width90">
+    <h1 class="subtitle"><a href="/users/<%= @user.id %>"><%= @user.name %></a>さんが登録している技</h1>
+
+    <div class="techniques">
+        <%= render :partial => "techniques/techniques", :collection => @user.favorite_techniques, :as => "technique" %>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<div class="width90 height100">
+    <h1 class="subtitle"><a href="/users/<%= @user.id %>"><%= @user.name %></a>さんの跳馬の演技構成</h1>
+
+    <br>
+
+    <% @first.each do |p| %>
+        <div class="vault-performance">
+            <div>
+                <h1><%= p.name %></h1>
+                <p><%= p.subname %></p>
+            </div>
+
+            <div>
+                <%= image_tag p.image, class: "tech-show-image" if p.image? %>
+            </div>
+
+            <div>
+                <h3><%= p.group2 %></h3>
+                <h1>Dスコア：<%= p.vaultd %></h1>
+            </div>
+        </div>
+    <% end %>
+
+    <h1 class="subtitle">
+        <% if user_signed_in? && @user.id == current_user.id && @vault.present? %>
+            <%= link_to "跳馬の演技構成を組みなおす", edit_user_vault_path(current_user.id, @vault.id) %>
+        <% elsif user_signed_in? && @user.id == current_user.id &&  @vault.nil? %>
+            <%= link_to("跳馬の演技構成を組む", "/users/#{current_user.id}/vaults/new") %>
+        <% end %>
+    </h1>
+</div>

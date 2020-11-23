@@ -1,0 +1,168 @@
+// _users.html.erb
+.profile-box {
+    padding: 20px;
+    border-bottom: solid thin #253341;
+    display: flex;
+}
+.profile-box a:hover {
+    opacity: 50%;
+}
+.profile-image-s {
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 60px;
+    width: 60px;
+}
+.profile-image-m {
+    border-radius: 50%;
+    padding-right: 20px;
+    height: 130px;
+    width: 130px;
+}
+.info-box {
+    width: 100%;
+}
+.info-box .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+.info-box .details .follower {
+    display: flex;
+    flex-direction: column;
+}
+.info-box .details .d {
+    font-size: 20px;
+}
+.info-box .details .follow a:hover {
+    color: #E0245E;
+}
+
+.users {
+    border-top: solid thin #253341;
+    margin: 50px 0;
+}
+
+// users#show
+.edit-or-dm-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.room-create {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+.room-create:hover {
+    opacity: 50%;
+}
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: solid thin #253341;
+}
+.event {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(119, 114, 114, 0.8);
+    background-blend-mode:lighten;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.events .floor {
+    background-image: image-url("1floor.jpg");
+}
+.events .pommel {
+    background-image: image-url("2pommel.jpg");
+}
+.events .rings {
+    background-image: image-url("3rings.jpg");
+}
+.events .vault {
+    background-image: image-url("4vault.jpg");
+}
+.events .parallel {
+    background-image: image-url("5parallel.jpg");
+}
+.events .horizontal {
+    background-image: image-url("6horizontal.jpg");
+}
+.events .mytechs {
+    background-image: image-url("7gymnast.jpg");
+    width: 100%;
+}
+
+
+// devise
+.front-devise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.login {
+    border-top: thin solid #253341;
+    border-bottom: thin solid #253341;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    text-align: center;
+}
+.login .field {
+    margin: 20px;
+}
+.login .field .image {
+    display: none;
+}
+.login .field i:hover {
+    opacity: 50%;
+}
+.login .field .form {
+    width: 500px;
+    height:50px;
+    padding:0 10px;
+    outline: 0;
+    border: none;
+    background: #253341;
+    color: white;
+}
+.login .actions .button {
+    height:50px;
+    width: 250px;
+    margin-top: 20px;
+    padding:0 10px; 
+    border-radius:25px;
+    outline:0;
+    border: none;
+    background: rgba(29,161,242,1.00);
+    color: white;
+    font-weight: bold;
+}
+.login .actions .button:hover {
+    color: #253341;
+}
+.login .break-account {
+    border-top: thin solid #253341;
+    border-bottom: thin solid #253341;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+.login .break-account .break-button:hover {
+    color: red;
+}
+.login .back-to-previous:hover {
+    opacity: 50%;
+}

@@ -1,0 +1,85 @@
+// index
+.rooms .room {
+    border-top: thin solid #253341;
+    padding: 10px;
+}
+.rooms a {
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    color: white;
+}
+.rooms a:hover {
+    text-decoration: none;
+    color: rgba(29,161,242,1.00);
+}
+
+
+// show
+.chats {
+    margin-bottom: 50px;
+    padding: 15px 15px 50px;
+}
+.chats .chat-opponent {
+    display: flex;
+}
+.chats .chat-opponent .contents {
+    margin: 15px;
+}
+.chats .chat-opponent .contents .message {
+    background: #253341;
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+}
+.chats .chat-mine .contents .message {
+    background: #253341;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+}
+.chats .chat-mine {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.chats .delete-button {
+    margin: auto 0;
+}
+.chats .delete-button a {
+    display: none;
+}
+.chats .chat-mine:hover a {
+    display: block;
+}
+.chats a:hover {
+    color: #E0245E;
+}
+.chats .chat-mine .contents {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.send-dm {
+    border-top: thin solid #253341;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 88%;
+    background: rgb(7,11,22);
+}
+.send-dm .form {
+    height:50px;
+    width: 90%;
+    padding:0 10px; 
+    border-radius:20px;
+    border: none;
+    background: #253341;
+    color: white;
+    outline: 0;
+}
+.send-dm .submit {
+    border-style: none;
+    background: rgb(7,11,22);
+    color: white;
+    font-size: 20px;
+}

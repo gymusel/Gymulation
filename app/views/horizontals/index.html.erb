@@ -1,0 +1,373 @@
+<div class="width90 height100">
+    <h1 class="subtitle"><a href="/users/<%= @user.id %>"><%= @user.name %></a>さんの鉄棒の演技構成</h1>
+
+    <div class="components">
+        <div class="component">
+            <% @first.each do |p| %>
+                <div class="left">
+                    <h1>1</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% unless @groupI >= 5 || @groupII >= 5 || @groupIII >= 5 %>
+                            <% @dv += 0.1 if p.difficulty == "A難度" %>
+                            <% @dv += 0.2 if p.difficulty == "B難度" %>
+                            <% @dv += 0.3 if p.difficulty == "C難度" %>
+                            <% @dv += 0.4 if p.difficulty == "D難度" %>
+                            <% @dv += 0.5 if p.difficulty == "E難度" %>
+                            <% @dv += 0.6 if p.difficulty == "F難度" %>
+                            <% @dv += 0.7 if p.difficulty == "G難度" %>
+                            <% @dv += 0.8 if p.difficulty == "H難度" %>
+                            <% @dv += 0.9 if p.difficulty == "I難度" %>
+                            <% @dv += 1 if p.difficulty == "J難度" %>
+                        <% end %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupI += 1 if p.group2 == "グループI" %>
+                        <% @groupII += 1 if p.group2 == "グループII" %>
+                        <% @groupIII += 1 if p.group2 == "グループIII" %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+        <div class="component">
+            <% @second.each do |p| %>
+                <div class="left">
+                    <h1>2</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% unless @groupI >= 5 || @groupII >= 5 || @groupIII >= 5 %>
+                            <% @dv += 0.1 if p.difficulty == "A難度" %>
+                            <% @dv += 0.2 if p.difficulty == "B難度" %>
+                            <% @dv += 0.3 if p.difficulty == "C難度" %>
+                            <% @dv += 0.4 if p.difficulty == "D難度" %>
+                            <% @dv += 0.5 if p.difficulty == "E難度" %>
+                            <% @dv += 0.6 if p.difficulty == "F難度" %>
+                            <% @dv += 0.7 if p.difficulty == "G難度" %>
+                            <% @dv += 0.8 if p.difficulty == "H難度" %>
+                            <% @dv += 0.9 if p.difficulty == "I難度" %>
+                            <% @dv += 1 if p.difficulty == "J難度" %>
+                        <% end %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupI += 1 if p.group2 == "グループI" %>
+                        <% @groupII += 1 if p.group2 == "グループII" %>
+                        <% @groupIII += 1 if p.group2 == "グループIII" %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+        <div class="component">
+            <% @third.each do |p| %>
+                <div class="left">
+                    <h1>3</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% unless @groupI >= 5 || @groupII >= 5 || @groupIII >= 5 %>
+                            <% @dv += 0.1 if p.difficulty == "A難度" %>
+                            <% @dv += 0.2 if p.difficulty == "B難度" %>
+                            <% @dv += 0.3 if p.difficulty == "C難度" %>
+                            <% @dv += 0.4 if p.difficulty == "D難度" %>
+                            <% @dv += 0.5 if p.difficulty == "E難度" %>
+                            <% @dv += 0.6 if p.difficulty == "F難度" %>
+                            <% @dv += 0.7 if p.difficulty == "G難度" %>
+                            <% @dv += 0.8 if p.difficulty == "H難度" %>
+                            <% @dv += 0.9 if p.difficulty == "I難度" %>
+                            <% @dv += 1 if p.difficulty == "J難度" %>
+                        <% end %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupI += 1 if p.group2 == "グループI" %>
+                        <% @groupII += 1 if p.group2 == "グループII" %>
+                        <% @groupIII += 1 if p.group2 == "グループIII" %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+        <div class="component">
+            <% @fourth.each do |p| %>
+                <div class="left">
+                    <h1>4</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% unless @groupI >= 5 || @groupII >= 5 || @groupIII >= 5 %>
+                            <% @dv += 0.1 if p.difficulty == "A難度" %>
+                            <% @dv += 0.2 if p.difficulty == "B難度" %>
+                            <% @dv += 0.3 if p.difficulty == "C難度" %>
+                            <% @dv += 0.4 if p.difficulty == "D難度" %>
+                            <% @dv += 0.5 if p.difficulty == "E難度" %>
+                            <% @dv += 0.6 if p.difficulty == "F難度" %>
+                            <% @dv += 0.7 if p.difficulty == "G難度" %>
+                            <% @dv += 0.8 if p.difficulty == "H難度" %>
+                            <% @dv += 0.9 if p.difficulty == "I難度" %>
+                            <% @dv += 1 if p.difficulty == "J難度" %>
+                        <% end %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupI += 1 if p.group2 == "グループI" %>
+                        <% @groupII += 1 if p.group2 == "グループII" %>
+                        <% @groupIII += 1 if p.group2 == "グループIII" %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+        <div class="component">
+            <% @fifth.each do |p| %>
+                <div class="left">
+                    <h1>5</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% unless @groupI >= 5 || @groupII >= 5 || @groupIII >= 5 %>
+                            <% @dv += 0.1 if p.difficulty == "A難度" %>
+                            <% @dv += 0.2 if p.difficulty == "B難度" %>
+                            <% @dv += 0.3 if p.difficulty == "C難度" %>
+                            <% @dv += 0.4 if p.difficulty == "D難度" %>
+                            <% @dv += 0.5 if p.difficulty == "E難度" %>
+                            <% @dv += 0.6 if p.difficulty == "F難度" %>
+                            <% @dv += 0.7 if p.difficulty == "G難度" %>
+                            <% @dv += 0.8 if p.difficulty == "H難度" %>
+                            <% @dv += 0.9 if p.difficulty == "I難度" %>
+                            <% @dv += 1 if p.difficulty == "J難度" %>
+                        <% end %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupI += 1 if p.group2 == "グループI" %>
+                        <% @groupII += 1 if p.group2 == "グループII" %>
+                        <% @groupIII += 1 if p.group2 == "グループIII" %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+        <div class="component">
+            <% @sixth.each do |p| %>
+                <div class="left">
+                    <h1>6</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% unless @groupI >= 5 || @groupII >= 5 || @groupIII >= 5 %>
+                            <% @dv += 0.1 if p.difficulty == "A難度" %>
+                            <% @dv += 0.2 if p.difficulty == "B難度" %>
+                            <% @dv += 0.3 if p.difficulty == "C難度" %>
+                            <% @dv += 0.4 if p.difficulty == "D難度" %>
+                            <% @dv += 0.5 if p.difficulty == "E難度" %>
+                            <% @dv += 0.6 if p.difficulty == "F難度" %>
+                            <% @dv += 0.7 if p.difficulty == "G難度" %>
+                            <% @dv += 0.8 if p.difficulty == "H難度" %>
+                            <% @dv += 0.9 if p.difficulty == "I難度" %>
+                            <% @dv += 1 if p.difficulty == "J難度" %>
+                        <% end %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupI += 1 if p.group2 == "グループI" %>
+                        <% @groupII += 1 if p.group2 == "グループII" %>
+                        <% @groupIII += 1 if p.group2 == "グループIII" %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+        <div class="component">
+            <% @seventh.each do |p| %>
+                <div class="left">
+                    <h1>7</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% unless @groupI >= 5 || @groupII >= 5 || @groupIII >= 5 %>
+                            <% @dv += 0.1 if p.difficulty == "A難度" %>
+                            <% @dv += 0.2 if p.difficulty == "B難度" %>
+                            <% @dv += 0.3 if p.difficulty == "C難度" %>
+                            <% @dv += 0.4 if p.difficulty == "D難度" %>
+                            <% @dv += 0.5 if p.difficulty == "E難度" %>
+                            <% @dv += 0.6 if p.difficulty == "F難度" %>
+                            <% @dv += 0.7 if p.difficulty == "G難度" %>
+                            <% @dv += 0.8 if p.difficulty == "H難度" %>
+                            <% @dv += 0.9 if p.difficulty == "I難度" %>
+                            <% @dv += 1 if p.difficulty == "J難度" %>
+                        <% end %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupI += 1 if p.group2 == "グループI" %>
+                        <% @groupII += 1 if p.group2 == "グループII" %>
+                        <% @groupIII += 1 if p.group2 == "グループIII" %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+        <div class="component">
+            <% @eighth.each do |p| %>
+                <div class="left">
+                    <h1>8</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% unless @groupI >= 5 || @groupII >= 5 || @groupIII >= 5 %>
+                            <% @dv += 0.1 if p.difficulty == "A難度" %>
+                            <% @dv += 0.2 if p.difficulty == "B難度" %>
+                            <% @dv += 0.3 if p.difficulty == "C難度" %>
+                            <% @dv += 0.4 if p.difficulty == "D難度" %>
+                            <% @dv += 0.5 if p.difficulty == "E難度" %>
+                            <% @dv += 0.6 if p.difficulty == "F難度" %>
+                            <% @dv += 0.7 if p.difficulty == "G難度" %>
+                            <% @dv += 0.8 if p.difficulty == "H難度" %>
+                            <% @dv += 0.9 if p.difficulty == "I難度" %>
+                            <% @dv += 1 if p.difficulty == "J難度" %>
+                        <% end %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupI += 1 if p.group2 == "グループI" %>
+                        <% @groupII += 1 if p.group2 == "グループII" %>
+                        <% @groupIII += 1 if p.group2 == "グループIII" %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+        <div class="component">
+            <% @ninth.each do |p| %>
+                <div class="left">
+                    <h1>9</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% unless @groupI >= 5 || @groupII >= 5 || @groupIII >= 5 %>
+                            <% @dv += 0.1 if p.difficulty == "A難度" %>
+                            <% @dv += 0.2 if p.difficulty == "B難度" %>
+                            <% @dv += 0.3 if p.difficulty == "C難度" %>
+                            <% @dv += 0.4 if p.difficulty == "D難度" %>
+                            <% @dv += 0.5 if p.difficulty == "E難度" %>
+                            <% @dv += 0.6 if p.difficulty == "F難度" %>
+                            <% @dv += 0.7 if p.difficulty == "G難度" %>
+                            <% @dv += 0.8 if p.difficulty == "H難度" %>
+                            <% @dv += 0.9 if p.difficulty == "I難度" %>
+                            <% @dv += 1 if p.difficulty == "J難度" %>
+                        <% end %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupI += 1 if p.group2 == "グループI" %>
+                        <% @groupII += 1 if p.group2 == "グループII" %>
+                        <% @groupIII += 1 if p.group2 == "グループIII" %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+        <div class="component">
+            <% @tenth.each do |p| %>
+                <div class="left">
+                    <h1>10</h1>
+                    <% @count += 1 if p.present? %>
+                    <div class="difficulty">
+                        <%= render :partial => "techniques/difficulty", :locals => { difficulty: p.difficulty } %>
+                        <% @dv += 0.1 if p.difficulty == "A難度" %>
+                        <% @dv += 0.2 if p.difficulty == "B難度" %>
+                        <% @dv += 0.3 if p.difficulty == "C難度" %>
+                        <% @dv += 0.4 if p.difficulty == "D難度" %>
+                        <% @dv += 0.5 if p.difficulty == "E難度" %>
+                        <% @dv += 0.6 if p.difficulty == "F難度" %>
+                        <% @dv += 0.7 if p.difficulty == "G難度" %>
+                        <% @dv += 0.8 if p.difficulty == "H難度" %>
+                        <% @dv += 0.9 if p.difficulty == "I難度" %>
+                        <% @dv += 1 if p.difficulty == "J難度" %>
+                    </div>
+                    <div class="group">
+                        <%= render :partial => "techniques/group", :locals => { group: p.group2 } %>
+                        <% @groupIV3 += 1 if p.group2 == "グループIV" && p.difficulty == "C難度" %>
+                        <% @groupIV5 += 1 if p.group2 == "グループIV" && ( p.difficulty == "D難度" || p.difficulty == "E難度" || p.difficulty == "F難度" || p.difficulty == "G難度" || p.difficulty == "H難度" || p.difficulty == "I難度" || p.difficulty == "J難度" ) %>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1><%= p.name %></h1>
+                    <%= image_tag p.image, class: "image" if p.image? %>
+                </div>
+            <% end %>
+        </div>
+    </div>
+
+    <% if @horizontal.present? %>
+        <% @egr += 0.5 if @groupI != 0 %>
+        <% @egr += 0.5 if @groupII != 0 %>
+        <% @egr += 0.5 if @groupIII != 0 %>
+        <% @egr += 0.3 if @groupIV3 != 0 %>
+        <% @egr += 0.5 if @groupIV5 != 0 %>
+
+        <% @count -= 10 if @count == 0 %>
+        <% @count -= 8 if @count == 1 || @count == 2 %>
+        <% @count -= 6 if @count == 3 || @count == 4 %>
+        <% @count -= 4 if @count == 5 || @count == 6 %>
+        <% @count = 0 if @count >= 7 %>
+
+        <% if @horizontal.cv.present? %>
+            <% @dscore += @dv + @egr + @count + @double + @horizontal.cv %>
+        <% else %>
+            <% @dscore += @dv + @egr + @count + @double %>
+        <% end %>
+
+        <h1 class="pagetitle">Dスコア：<%= @dscore %></h1>
+
+        <div class="dscore-tips">
+            <% if user_signed_in? && @user.id == current_user.id && @horizontal.present? %>
+                <%= "演技構成に「グループI」の技を組み込もう" if @groupI.blank? %>
+                <%= "演技構成に「グループII」の技を組み込もう" if @groupII.blank? %>
+                <%= "演技構成に「グループIII」の技を組み込もう" if @groupIII.blank? %>
+                <%= "演技構成に「C難度以上」の「グループIV」の技を組み込もう" if ( @groupIV3.blank? && @groupIV5.blank? ) %>
+                <%= "演技構成に「D難度以上」の「グループIV」の技を組み込もう" if ( @groupIV3 && @groupIV5.blank? ) %>
+            <% end %>
+        </div>
+    <% end %>
+
+    <h1 class="subtitle">
+        <% if user_signed_in? && @user.id == current_user.id && @horizontal.present? %>
+            <%= link_to "鉄棒の演技構成を組みなおす", edit_user_horizontal_path(current_user.id, @horizontal.id) %>
+        <% elsif user_signed_in? && @user.id == current_user.id &&  @horizontal.nil? %>
+            <%= link_to("鉄棒の演技構成を組む", "/users/#{current_user.id}/horizontals/new") %>
+        <% end %>
+    </h1>
+</div>

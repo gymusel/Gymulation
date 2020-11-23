@@ -1,0 +1,42 @@
+<div class="width90">
+    <div class="edit-or-dm-button">
+        <% if user_signed_in? %>
+            <% if @user.id == current_user.id %>
+                <h2><%= link_to "編集する", edit_user_registration_path %></h2>
+            <% else %>
+                <% if user_signed_in? %>
+                    <% if @haveRoom == true %>
+                        <h2><%= link_to "DMを送る", room_path(@roomId, anchor: 'bottom') %></h2>
+                    <% else %>
+                        <%= form_with model:@room, local: true do |f| %>
+                            <%= fields_for @entry do |e| %>
+                                <%= e.hidden_field :user_id, value: @user.id, class:"btn btn-primary btn-lg user-show-chat" %>
+                                <h2><%= f.submit "DMを送る", class: "room-create" %></h2>
+                            <% end %>
+                        <% end %>
+                    <% end %>
+                <% end %>
+            <% end %>
+        <% end %>
+    </div>
+    
+    <%= render :partial => "users", :locals => { user: @user } %>
+
+    <h1 class="pagetitle">演技構成を見る</h1>
+
+    <div class="events">
+        <h1 class="event floor"><%= link_to "ゆか", user_floors_path(@user) %></h1>
+        <h1 class="event pommel"><%= link_to "あん馬", user_pommels_path(@user) %></h1>
+        <h1 class="event rings"><%= link_to "つり輪", user_rings_path(@user) %></h1>
+        <h1 class="event vault"><%= link_to "跳馬", user_vaults_path(@user) %></h1>
+        <h1 class="event parallel"><%= link_to "平行棒", user_parallels_path(@user) %></h1>
+        <h1 class="event horizontal"><%= link_to "鉄棒", user_horizontals_path(@user) %></h1>
+        <h1 class="event mytechs"><%= link_to("登録した技", "/users/#{@user.id}/favorites") %></h1>
+    </div>
+
+    <h1 class="pagetitle">POSTS</h1>
+
+    <div class="posts">
+        <%= render :partial => "posts/posts", :collection => @user.posts.order(created_at: :desc), :as => "post" %>
+    </div>
+</div>
