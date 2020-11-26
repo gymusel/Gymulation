@@ -1,15 +1,15 @@
-<div class="width90">
-    <div class="height100">
-        <h1 class="pagetitle">Find Gymnasts</h1>
+<div class="width90 height100">
+    <h1 class="pagetitle">Find Gymnasts</h1>
 
-        <p class="center-text">フォローする選手を見つけよう</p>
-        
-        <div class="form-box">
-            <%= form_tag({controller:"users", action:"search"}, method: :get, class: "search") do %>
-                <%= text_field_tag :search, '', class: "form-control fa", id: "field", placeholder: "\uF002 ユーザー名で検索" %>
-            <% end %>
-        </div>
+    <p class="center-text">フォローする選手を見つけよう</p>
+    
+    <div class="form-box">
+        <%= form_tag({controller:"users", action:"search"}, method: :get, class: "search") do %>
+            <%= text_field_tag :search, '', class: "form-control fa", id: "field", placeholder: "\uF002 ユーザー名で検索" %>
+        <% end %>
     </div>
+
+    <br><br>
 
     <h1 class="subtitle">Results</h1>
 
