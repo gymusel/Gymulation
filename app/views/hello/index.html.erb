@@ -1,5 +1,11 @@
 
 <div class="hello-gymulation">
+    <div class="layer-black">
+    
+    </div>
+    <div class="layer-red">
+
+    </div>
     <div class="layer">
         <div class="title-box">
             <i class="fab fa-battle-net fa-10x"></i>
@@ -9,43 +15,34 @@
 </div>
 
 <div class="second-page">
-    <div class="text-box">
-        <h1>Gymulationとは？</h1><br>
-        <h3>めまぐるしく体操技術が進化する時代。</h3><br>
-        <h3>あなたの演技構成も刻々と変化しているでしょう。</h3><br>
-        <h3>Gymulationは、あなたの演技構成を組む手助けをします。</h3><br>
-    </div>
-    <div class="protector">
-        <%= image_tag "protector.jpg", size: '400x570' %>
-    </div>
-</div>
+    <br><br><br>
+    <h1 class="pagetitle"">Gymulationとは？</h1>
 
-<h1 class="pagetitle"">Gymulationの使い方</h1>
-
-<div class="howto">
-    <div class="items">
+    <div class="three-items">
         <div class="item">
-            <div class="item-img"><%= image_tag "5parallel.jpg", size: '600x400' %></div>
-            <div class="item-body">
-                <h2 class="item-title">STEP1: 技を登録しよう</h2>
-                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
+            <i class="fas fa-user-friends fa-3x"></i>
+            <h2>体操選手だけのコミュニティ</h2>
+            <p>まずは気になる選手をフォローしよう。</p>
+            <p>動画投稿機能やDM機能を利用して<br>交流を深めよう！</p>
+            <p>今後のアップデートで<br>もっと使いやすくしていくつもりです！</p>
+            <%= link_to "選手をさがす", search_users_path %>
         </div>
-
         <div class="item">
-            <div class="item-img"><%= image_tag "5parallel.jpg", size: '600x400' %></div>
-            <div class="item-body">
-                <h2 class="item-title">STEP2: 演技構成を組もう</h2>
-                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
+            <i class="fas fa-child fa-3x"></i>
+            <h2>800種類以上からなる技データベース</h2>
+            <p>まずは自分のできる技を登録してみよう。</p>
+            <p>あとはマイページから演技構成を組むだけ！</p>
+            <p>自動でDスコアも計算してくれます！</p>
+            <p>万が一技が見つからなければ<br>自分でデータベースに登録できます。</p>
+            <%= link_to "技を登録する", techniques_path %>
         </div>
-
         <div class="item">
-            <div class="item-img"><%= image_tag "5parallel.jpg", size: '600x400' %></div>
-            <div class="item-body">
-                <h2 class="item-title">STEP3: 動画をシェアしよう</h2>
-                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
+            <i class="fab fa-youtube fa-3x"></i>
+            <h2>他のユーザーの動画から学べる</h2>
+            <p>まずは他の選手の動画をチェックしよう。</p>
+            <p>気に入った動画にはいいねをつけたり<br>コメントを残せます。</p>
+            <p>日々の練習動画を投稿していくことで<br>練習日記としても使えます！</p>
+            <%= link_to "動画を見つける", posts_path %>
         </div>
     </div>
 </div>
