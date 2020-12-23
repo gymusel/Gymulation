@@ -15,7 +15,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.46.28-4fb4603e0d2e6930488a8bfed59e59bbaa426e4c502ff906674ddf11a3133ef2.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.46.28.png'), 
     user_id: 1, 
     
 )
