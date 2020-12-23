@@ -15,7 +15,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.46.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.46.28.png'), 
     user_id: 1, 
     
 )
@@ -24,7 +24,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.47.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.47.48.png'), 
     user_id: 1, 
     
 )
@@ -34,7 +34,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.48.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.48.16.png'), 
     user_id: 1, 
     
 )
@@ -44,7 +44,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.48.47.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.48.47.png'), 
     user_id: 1, 
     
 )
@@ -54,7 +54,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.49.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.49.07.png'), 
     user_id: 1, 
     
 )
@@ -63,7 +63,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.49.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.49.26.png'), 
     user_id: 1, 
     
 )
@@ -72,7 +72,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.49.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.49.45.png'), 
     user_id: 1, 
     
 )
@@ -81,7 +81,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.50.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.50.08.png'), 
     user_id: 1, 
     
 )
@@ -91,7 +91,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.50.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.50.25.png'), 
     user_id: 1, 
     
 )
@@ -100,7 +100,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.50.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.50.45.png'), 
     user_id: 1, 
     
 )
@@ -109,7 +109,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.51.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.51.03.png'), 
     user_id: 1, 
     
 )
@@ -119,7 +119,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.51.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.51.13.png'), 
     user_id: 1, 
     
 )
@@ -128,7 +128,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.51.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.51.23.png'), 
     user_id: 1, 
     
 )
@@ -137,7 +137,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.53.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.53.43.png'), 
     user_id: 1, 
     
 )
@@ -146,7 +146,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.54.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.54.01.png'), 
     user_id: 1, 
     
 )
@@ -155,7 +155,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.54.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.54.19.png'), 
     user_id: 1, 
     
 )
@@ -164,7 +164,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.55.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.55.19.png'), 
     user_id: 1, 
     
 )
@@ -173,7 +173,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.55.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.55.30.png'), 
     user_id: 1, 
     
 )
@@ -182,7 +182,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.56.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.56.04.png'), 
     user_id: 1, 
     
 )
@@ -192,7 +192,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.56.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.56.15.png'), 
     user_id: 1, 
     
 )
@@ -201,7 +201,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.56.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.56.33.png'), 
     user_id: 1, 
     
 )
@@ -210,7 +210,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.56.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.56.58.png'), 
     user_id: 1, 
     
 )
@@ -219,7 +219,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.57.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.57.16.png'), 
     user_id: 1, 
     
 )
@@ -229,7 +229,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.58.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.58.32.png'), 
     user_id: 1, 
     
 )
@@ -238,7 +238,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.58.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.58.48.png'), 
     user_id: 1, 
     
 )
@@ -247,7 +247,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.59.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.59.05.png'), 
     user_id: 1, 
     
 )
@@ -256,7 +256,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.59.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.59.20.png'), 
     user_id: 1, 
     
 )
@@ -265,7 +265,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 18.59.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 18.59.36.png'), 
     user_id: 1, 
     
 )
@@ -274,7 +274,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.00.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.00.02.png'), 
     user_id: 1, 
     
 )
@@ -284,7 +284,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.00.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.00.20.png'), 
     user_id: 1, 
     
 )
@@ -293,7 +293,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.00.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.00.56.png'), 
     user_id: 1, 
     
 )
@@ -303,7 +303,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.01.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.01.07.png'), 
     user_id: 1, 
     
 )
@@ -312,7 +312,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.01.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.01.18.png'), 
     user_id: 1, 
     
 )
@@ -321,7 +321,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.01.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.01.35.png'), 
     user_id: 1, 
     
 )
@@ -331,7 +331,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.01.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.01.50.png'), 
     user_id: 1, 
     
 )
@@ -340,7 +340,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.02.00.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.02.00.png'), 
     user_id: 1, 
     
 )
@@ -350,7 +350,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.02.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.02.40.png'), 
     user_id: 1, 
     
 )
@@ -360,7 +360,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.03.47.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.03.47.png'), 
     user_id: 1, 
     
 )
@@ -370,7 +370,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.04.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.04.06.png'), 
     user_id: 1, 
     
 )
@@ -380,7 +380,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.05.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.05.34.png'), 
     user_id: 1, 
     
 )
@@ -390,7 +390,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.05.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.05.45.png'), 
     user_id: 1, 
     
 )
@@ -400,7 +400,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.05.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.05.59.png'), 
     user_id: 1, 
     
 )
@@ -410,7 +410,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.06.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.06.18.png'), 
     user_id: 1, 
     
 )
@@ -420,7 +420,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.06.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.06.30.png'), 
     user_id: 1, 
     
 )
@@ -430,7 +430,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.06.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.06.48.png'), 
     user_id: 1, 
     
 )
@@ -440,7 +440,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.07.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.07.02.png'), 
     user_id: 1, 
     
 )
@@ -450,7 +450,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.07.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.07.16.png'), 
     user_id: 1, 
     
 )
@@ -459,7 +459,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.07.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.07.30.png'), 
     user_id: 1, 
     
 )
@@ -468,7 +468,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.07.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.07.55.png'), 
     user_id: 1, 
     
 )
@@ -480,7 +480,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.08.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.08.25.png'), 
     user_id: 1, 
     
 )
@@ -490,7 +490,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.08.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.08.39.png'), 
     user_id: 1, 
     
 )
@@ -500,7 +500,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.08.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.08.50.png'), 
     user_id: 1, 
     
 )
@@ -510,7 +510,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.09.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.09.05.png'), 
     user_id: 1, 
     
 )
@@ -520,7 +520,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.09.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.09.23.png'), 
     user_id: 1, 
     
 )
@@ -530,7 +530,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.09.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.09.44.png'), 
     user_id: 1, 
     
 )
@@ -539,7 +539,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.09.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.09.58.png'), 
     user_id: 1, 
     
 )
@@ -548,7 +548,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.10.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.10.15.png'), 
     user_id: 1, 
     
 )
@@ -557,7 +557,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.10.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.10.28.png'), 
     user_id: 1, 
     
 )
@@ -566,7 +566,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.11.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.11.25.png'), 
     user_id: 1, 
     
 )
@@ -575,7 +575,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.11.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.11.50.png'), 
     user_id: 1, 
     
 )
@@ -584,7 +584,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.12.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.12.10.png'), 
     user_id: 1, 
     
 )
@@ -593,7 +593,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.12.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.12.27.png'), 
     user_id: 1, 
     
 )
@@ -603,7 +603,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.12.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.12.45.png'), 
     user_id: 1, 
     
 )
@@ -612,7 +612,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.12.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.12.56.png'), 
     user_id: 1, 
     
 )
@@ -621,7 +621,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.13.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.13.25.png'), 
     user_id: 1, 
     
 )
@@ -630,7 +630,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.13.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.13.35.png'), 
     user_id: 1, 
     
 )
@@ -639,7 +639,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.13.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.13.45.png'), 
     user_id: 1, 
     
 )
@@ -648,7 +648,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.13.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.13.55.png'), 
     user_id: 1, 
     
 )
@@ -658,7 +658,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.14.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.14.06.png'), 
     user_id: 1, 
     
 )
@@ -667,7 +667,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: '難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.14.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.14.18.png'), 
     user_id: 1, 
     
 )
@@ -676,7 +676,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: '難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.14.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.14.32.png'), 
     user_id: 1, 
     
 )
@@ -686,7 +686,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.14.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.14.51.png'), 
     user_id: 1, 
     
 )
@@ -695,7 +695,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.15.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.15.07.png'), 
     user_id: 1, 
     
 )
@@ -704,7 +704,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.15.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.15.24.png'), 
     user_id: 1, 
     
 )
@@ -714,7 +714,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.15.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.15.40.png'), 
     user_id: 1, 
     
 )
@@ -726,7 +726,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.16.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.16.22.png'), 
     user_id: 1, 
     
 )
@@ -735,7 +735,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.16.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.16.50.png'), 
     user_id: 1, 
     
 )
@@ -744,7 +744,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.17.11.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.17.11.png'), 
     user_id: 1, 
     
 )
@@ -754,7 +754,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.17.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.17.27.png'), 
     user_id: 1, 
     
 )
@@ -763,7 +763,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.17.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.17.45.png'), 
     user_id: 1, 
     
 )
@@ -773,7 +773,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'G難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.17.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.17.56.png'), 
     user_id: 1, 
     
 )
@@ -783,7 +783,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.18.14.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.18.14.png'), 
     user_id: 1, 
     
 )
@@ -792,7 +792,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.18.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.18.29.png'), 
     user_id: 1, 
     
 )
@@ -801,7 +801,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.18.47.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.18.47.png'), 
     user_id: 1, 
     
 )
@@ -811,7 +811,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.18.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.18.56.png'), 
     user_id: 1, 
     
 )
@@ -820,7 +820,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'F難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.19.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.19.08.png'), 
     user_id: 1, 
     
 )
@@ -829,7 +829,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.19.31.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.19.31.png'), 
     user_id: 1, 
     
 )
@@ -838,7 +838,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.19.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.19.48.png'), 
     user_id: 1, 
     
 )
@@ -847,7 +847,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.20.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.20.03.png'), 
     user_id: 1, 
     
 )
@@ -857,7 +857,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'H難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.20.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.20.17.png'), 
     user_id: 1, 
     
 )
@@ -866,7 +866,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.20.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.20.35.png'), 
     user_id: 1, 
     
 )
@@ -875,7 +875,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.21.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.21.02.png'), 
     user_id: 1, 
     
 )
@@ -884,7 +884,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.21.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.21.13.png'), 
     user_id: 1, 
     
 )
@@ -893,7 +893,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.21.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.21.33.png'), 
     user_id: 1, 
     
 )
@@ -902,7 +902,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.21.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.21.51.png'), 
     user_id: 1, 
     
 )
@@ -911,7 +911,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.22.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.22.06.png'), 
     user_id: 1, 
     
 )
@@ -920,7 +920,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.22.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.22.21.png'), 
     user_id: 1, 
     
 )
@@ -930,7 +930,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'F難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.22.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.22.30.png'), 
     user_id: 1, 
     
 )
@@ -939,7 +939,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.22.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.22.52.png'), 
     user_id: 1, 
     
 )
@@ -949,7 +949,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.23.14.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.23.14.png'), 
     user_id: 1, 
     
 )
@@ -959,7 +959,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.23.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.23.22.png'), 
     user_id: 1, 
     
 )
@@ -969,7 +969,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.23.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.23.35.png'), 
     user_id: 1, 
     
 )
@@ -979,7 +979,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'F難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.23.47.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.23.47.png'), 
     user_id: 1, 
     
 )
@@ -988,7 +988,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.24.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.24.08.png'), 
     user_id: 1, 
     
 )
@@ -998,7 +998,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.24.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.24.28.png'), 
     user_id: 1, 
     
 )
@@ -1008,7 +1008,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'F難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.24.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.24.40.png'), 
     user_id: 1, 
     
 )
@@ -1018,7 +1018,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.24.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.24.59.png'), 
     user_id: 1, 
     
 )
@@ -1027,7 +1027,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'F難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.25.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.25.12.png'), 
     user_id: 1, 
     
 )
@@ -1037,7 +1037,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'G難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.25.31.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.25.31.png'), 
     user_id: 1, 
     
 )
@@ -1047,7 +1047,7 @@ Technique.create(
     event: 'ゆか', 
     difficulty: 'H難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.25.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.25.43.png'), 
     user_id: 1, 
     
 )
@@ -1061,7 +1061,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.26.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.26.41.png'), 
     user_id: 1, 
     
 )
@@ -1071,7 +1071,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.26.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.26.55.png'), 
     user_id: 1, 
     
 )
@@ -1081,7 +1081,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.27.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.27.20.png'), 
     user_id: 1, 
     
 )
@@ -1091,7 +1091,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.27.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.27.33.png'), 
     user_id: 1, 
     
 )
@@ -1101,7 +1101,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.27.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.27.57.png'), 
     user_id: 1, 
     
 )
@@ -1111,7 +1111,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.28.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.28.07.png'), 
     user_id: 1, 
     
 )
@@ -1121,7 +1121,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.28.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.28.45.png'), 
     user_id: 1, 
     
 )
@@ -1131,7 +1131,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.29.11.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.29.11.png'), 
     user_id: 1, 
     
 )
@@ -1141,7 +1141,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.29.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.29.32.png'), 
     user_id: 1, 
     
 )
@@ -1151,7 +1151,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.29.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.29.53.png'), 
     user_id: 1, 
     
 )
@@ -1161,7 +1161,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.30.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.30.17.png'), 
     user_id: 1, 
     
 )
@@ -1171,7 +1171,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.30.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.30.52.png'), 
     user_id: 1, 
     
 )
@@ -1181,7 +1181,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.31.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.31.17.png'), 
     user_id: 1, 
     
 )
@@ -1191,7 +1191,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.31.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.31.40.png'), 
     user_id: 1, 
     
 )
@@ -1201,7 +1201,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.31.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.31.59.png'), 
     user_id: 1, 
     
 )
@@ -1211,7 +1211,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.32.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.32.13.png'), 
     user_id: 1, 
     
 )
@@ -1221,7 +1221,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.32.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.32.36.png'), 
     user_id: 1, 
     
 )
@@ -1231,7 +1231,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.32.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.32.55.png'), 
     user_id: 1, 
     
 )
@@ -1241,7 +1241,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.33.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.33.16.png'), 
     user_id: 1, 
     
 )
@@ -1253,7 +1253,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.33.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.33.39.png'), 
     user_id: 1, 
     
 )
@@ -1262,7 +1262,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.34.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.34.03.png'), 
     user_id: 1, 
     
 )
@@ -1272,7 +1272,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.34.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.34.28.png'), 
     user_id: 1, 
     
 )
@@ -1282,7 +1282,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.34.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.34.59.png'), 
     user_id: 1, 
     
 )
@@ -1291,7 +1291,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.35.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.35.13.png'), 
     user_id: 1, 
     
 )
@@ -1300,7 +1300,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.35.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.35.32.png'), 
     user_id: 1, 
     
 )
@@ -1309,7 +1309,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.36.00.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.36.00.png'), 
     user_id: 1, 
     
 )
@@ -1318,7 +1318,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.36.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.36.36.png'), 
     user_id: 1, 
     
 )
@@ -1327,7 +1327,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.36.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.36.45.png'), 
     user_id: 1, 
     
 )
@@ -1336,7 +1336,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.38.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.38.57.png'), 
     user_id: 1, 
     
 )
@@ -1346,7 +1346,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.39.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.39.09.png'), 
     user_id: 1, 
     
 )
@@ -1355,7 +1355,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.39.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.39.21.png'), 
     user_id: 1, 
     
 )
@@ -1364,7 +1364,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.39.37.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.39.37.png'), 
     user_id: 1, 
     
 )
@@ -1373,7 +1373,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.39.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.39.49.png'), 
     user_id: 1, 
     
 )
@@ -1383,7 +1383,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.40.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.40.02.png'), 
     user_id: 1, 
     
 )
@@ -1393,7 +1393,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.40.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.40.25.png'), 
     user_id: 1, 
     
 )
@@ -1402,7 +1402,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.40.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.40.42.png'), 
     user_id: 1, 
     
 )
@@ -1412,7 +1412,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.41.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.41.07.png'), 
     user_id: 1, 
     
 )
@@ -1422,7 +1422,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.41.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.41.21.png'), 
     user_id: 1, 
     
 )
@@ -1431,7 +1431,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.41.38.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.41.38.png'), 
     user_id: 1, 
     
 )
@@ -1440,7 +1440,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.41.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.41.56.png'), 
     user_id: 1, 
     
 )
@@ -1450,7 +1450,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.42.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.42.36.png'), 
     user_id: 1, 
     
 )
@@ -1460,7 +1460,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.42.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.42.51.png'), 
     user_id: 1, 
     
 )
@@ -1470,7 +1470,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.43.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.43.09.png'), 
     user_id: 1, 
     
 )
@@ -1480,7 +1480,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.43.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.43.23.png'), 
     user_id: 1, 
     
 )
@@ -1489,7 +1489,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.43.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.43.42.png'), 
     user_id: 1, 
     
 )
@@ -1498,7 +1498,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.43.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.43.54.png'), 
     user_id: 1, 
     
 )
@@ -1508,7 +1508,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.44.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.44.20.png'), 
     user_id: 1, 
     
 )
@@ -1517,7 +1517,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.44.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.44.43.png'), 
     user_id: 1, 
     
 )
@@ -1527,7 +1527,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.45.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.45.16.png'), 
     user_id: 1, 
     
 )
@@ -1536,7 +1536,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.45.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.45.53.png'), 
     user_id: 1, 
     
 )
@@ -1545,7 +1545,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.46.11.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.46.11.png'), 
     user_id: 1, 
     
 )
@@ -1554,7 +1554,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.46.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.46.23.png'), 
     user_id: 1, 
     
 )
@@ -1563,7 +1563,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.46.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.46.41.png'), 
     user_id: 1, 
     
 )
@@ -1573,7 +1573,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.46.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.46.53.png'), 
     user_id: 1, 
     
 )
@@ -1582,7 +1582,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.47.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.47.13.png'), 
     user_id: 1, 
     
 )
@@ -1592,7 +1592,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.47.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.47.27.png'), 
     user_id: 1, 
     
 )
@@ -1602,7 +1602,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.47.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.47.42.png'), 
     user_id: 1, 
     
 )
@@ -1612,7 +1612,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.47.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.47.50.png'), 
     user_id: 1, 
     
 )
@@ -1622,7 +1622,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.48.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.48.03.png'), 
     user_id: 1, 
     
 )
@@ -1632,7 +1632,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.48.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.48.13.png'), 
     user_id: 1, 
     
 )
@@ -1642,7 +1642,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.48.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.48.29.png'), 
     user_id: 1, 
     
 )
@@ -1651,7 +1651,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.48.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.48.43.png'), 
     user_id: 1, 
     
 )
@@ -1661,7 +1661,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.49.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.49.02.png'), 
     user_id: 1, 
     
 )
@@ -1671,7 +1671,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.49.11.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.49.11.png'), 
     user_id: 1, 
     
 )
@@ -1681,7 +1681,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.49.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.49.30.png'), 
     user_id: 1, 
     
 )
@@ -1690,7 +1690,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.49.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.49.46.png'), 
     user_id: 1, 
     
 )
@@ -1700,7 +1700,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.50.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.50.09.png'), 
     user_id: 1, 
     
 )
@@ -1710,7 +1710,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.50.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.50.30.png'), 
     user_id: 1, 
     
 )
@@ -1720,7 +1720,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.50.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.50.42.png'), 
     user_id: 1, 
     
 )
@@ -1729,7 +1729,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.51.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.51.05.png'), 
     user_id: 1, 
     
 )
@@ -1740,7 +1740,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 19.51.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 19.51.35.png'), 
     user_id: 1, 
     
 )
@@ -1749,7 +1749,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.02.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.02.21.png'), 
     user_id: 1, 
     
 )
@@ -1758,7 +1758,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'c難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.02.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.02.39.png'), 
     user_id: 1, 
     
 )
@@ -1767,7 +1767,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.02.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.02.53.png'), 
     user_id: 1, 
     
 )
@@ -1776,7 +1776,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.03.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.03.12.png'), 
     user_id: 1, 
     
 )
@@ -1785,7 +1785,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.03.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.03.28.png'), 
     user_id: 1, 
     
 )
@@ -1795,7 +1795,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.03.37.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.03.37.png'), 
     user_id: 1, 
     
 )
@@ -1804,7 +1804,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.04.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.04.09.png'), 
     user_id: 1, 
     
 )
@@ -1813,7 +1813,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.04.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.04.24.png'), 
     user_id: 1, 
     
 )
@@ -1822,7 +1822,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.04.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.04.39.png'), 
     user_id: 1, 
     
 )
@@ -1831,7 +1831,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.04.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.04.49.png'), 
     user_id: 1, 
     
 )
@@ -1840,7 +1840,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.05.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.05.46.png'), 
     user_id: 1, 
     
 )
@@ -1849,7 +1849,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.05.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.05.59.png'), 
     user_id: 1, 
     
 )
@@ -1858,7 +1858,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.06.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.06.21.png'), 
     user_id: 1, 
     
 )
@@ -1868,7 +1868,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.06.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.06.46.png'), 
     user_id: 1, 
     
 )
@@ -1877,7 +1877,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.07.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.07.28.png'), 
     user_id: 1, 
     
 )
@@ -1886,7 +1886,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.07.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.07.39.png'), 
     user_id: 1, 
     
 )
@@ -1895,7 +1895,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.07.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.07.52.png'), 
     user_id: 1, 
     
 )
@@ -1905,7 +1905,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.12.png'), 
     user_id: 1, 
     
 )
@@ -1914,7 +1914,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.24.png'), 
     user_id: 1, 
     
 )
@@ -1924,7 +1924,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.35.png'), 
     user_id: 1, 
     
 )
@@ -1934,7 +1934,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.44.png'), 
     user_id: 1, 
     
 )
@@ -1944,7 +1944,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.08.58.png'), 
     user_id: 1, 
     
 )
@@ -1954,7 +1954,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.09.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.09.09.png'), 
     user_id: 1, 
     
 )
@@ -1963,7 +1963,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.09.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.09.18.png'), 
     user_id: 1, 
     
 )
@@ -1973,7 +1973,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.09.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.09.29.png'), 
     user_id: 1, 
     
 )
@@ -1983,7 +1983,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.09.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.09.40.png'), 
     user_id: 1, 
     
 )
@@ -1993,7 +1993,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.10.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.10.19.png'), 
     user_id: 1, 
     
 )
@@ -2002,7 +2002,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.10.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.10.33.png'), 
     user_id: 1, 
     
 )
@@ -2011,7 +2011,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.10.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.10.46.png'), 
     user_id: 1, 
     
 )
@@ -2020,7 +2020,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.11.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.11.39.png'), 
     user_id: 1, 
     
 )
@@ -2030,7 +2030,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.11.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.11.55.png'), 
     user_id: 1, 
     
 )
@@ -2040,7 +2040,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.12.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.12.07.png'), 
     user_id: 1, 
     
 )
@@ -2050,7 +2050,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.12.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.12.39.png'), 
     user_id: 1, 
     
 )
@@ -2060,7 +2060,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.12.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.12.54.png'), 
     user_id: 1, 
     
 )
@@ -2070,7 +2070,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.13.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.13.10.png'), 
     user_id: 1, 
     
 )
@@ -2079,7 +2079,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.13.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.13.44.png'), 
     user_id: 1, 
     
 )
@@ -2089,7 +2089,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.14.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.14.03.png'), 
     user_id: 1, 
     
 )
@@ -2099,7 +2099,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.04.png'), 
     user_id: 1, 
     
 )
@@ -2109,7 +2109,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.14.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.14.png'), 
     user_id: 1, 
     
 )
@@ -2119,7 +2119,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.25.png'), 
     user_id: 1, 
     
 )
@@ -2128,7 +2128,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.39.png'), 
     user_id: 1, 
     
 )
@@ -2138,7 +2138,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.15.48.png'), 
     user_id: 1, 
     
 )
@@ -2149,7 +2149,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.16.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.16.01.png'), 
     user_id: 1, 
     
 )
@@ -2159,7 +2159,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.16.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.16.10.png'), 
     user_id: 1, 
     
 )
@@ -2169,7 +2169,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.16.31.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.16.31.png'), 
     user_id: 1, 
     
 )
@@ -2179,7 +2179,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'E難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.16.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.16.41.png'), 
     user_id: 1, 
     
 )
@@ -2189,7 +2189,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.17.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.17.18.png'), 
     user_id: 1, 
     
 )
@@ -2199,7 +2199,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.17.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.17.29.png'), 
     user_id: 1, 
     
 )
@@ -2208,7 +2208,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.17.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.17.42.png'), 
     user_id: 1, 
     
 )
@@ -2217,7 +2217,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.17.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.17.54.png'), 
     user_id: 1, 
     
 )
@@ -2227,7 +2227,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.18.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.18.08.png'), 
     user_id: 1, 
     
 )
@@ -2237,7 +2237,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.18.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.18.22.png'), 
     user_id: 1, 
     
 )
@@ -2246,7 +2246,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.20.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.20.50.png'), 
     user_id: 1, 
     
 )
@@ -2255,7 +2255,7 @@ Technique.create(
     event: 'あん馬', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.21.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.21.06.png'), 
     user_id: 1, 
     
 )
@@ -2268,7 +2268,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.33.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.33.24.png'), 
     user_id: 1, 
     
 )
@@ -2277,7 +2277,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.33.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.33.55.png'), 
     user_id: 1, 
     
 )
@@ -2287,7 +2287,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.34.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.34.26.png'), 
     user_id: 1, 
     
 )
@@ -2297,7 +2297,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.34.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.34.45.png'), 
     user_id: 1, 
     
 )
@@ -2307,7 +2307,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.35.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.35.01.png'), 
     user_id: 1, 
     
 )
@@ -2316,7 +2316,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.35.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.35.18.png'), 
     user_id: 1, 
     
 )
@@ -2325,7 +2325,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.35.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.35.39.png'), 
     user_id: 1, 
     
 )
@@ -2335,7 +2335,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.35.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.35.52.png'), 
     user_id: 1, 
     
 )
@@ -2345,7 +2345,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.36.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.36.07.png'), 
     user_id: 1, 
     
 )
@@ -2355,7 +2355,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.36.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.36.23.png'), 
     user_id: 1, 
     
 )
@@ -2364,7 +2364,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.36.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.36.42.png'), 
     user_id: 1, 
     
 )
@@ -2374,7 +2374,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.36.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.36.56.png'), 
     user_id: 1, 
     
 )
@@ -2383,7 +2383,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.37.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.37.17.png'), 
     user_id: 1, 
     
 )
@@ -2392,7 +2392,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.37.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.37.27.png'), 
     user_id: 1, 
     
 )
@@ -2401,7 +2401,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.37.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.37.41.png'), 
     user_id: 1, 
     
 )
@@ -2411,7 +2411,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.37.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.37.57.png'), 
     user_id: 1, 
     
 )
@@ -2421,7 +2421,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.38.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.38.13.png'), 
     user_id: 1, 
     
 )
@@ -2430,7 +2430,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.38.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.38.57.png'), 
     user_id: 1, 
     
 )
@@ -2440,7 +2440,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.39.11.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.39.11.png'), 
     user_id: 1, 
     
 )
@@ -2450,7 +2450,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.39.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.39.22.png'), 
     user_id: 1, 
     
 )
@@ -2459,7 +2459,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.39.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.39.42.png'), 
     user_id: 1, 
     
 )
@@ -2468,7 +2468,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.39.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.39.59.png'), 
     user_id: 1, 
     
 )
@@ -2477,7 +2477,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.40.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.40.13.png'), 
     user_id: 1, 
     
 )
@@ -2486,7 +2486,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.40.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.40.26.png'), 
     user_id: 1, 
     
 )
@@ -2495,7 +2495,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.40.38.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.40.38.png'), 
     user_id: 1, 
     
 )
@@ -2504,7 +2504,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.40.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.40.55.png'), 
     user_id: 1, 
     
 )
@@ -2514,7 +2514,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.41.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.41.08.png'), 
     user_id: 1, 
     
 )
@@ -2524,7 +2524,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.41.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.41.50.png'), 
     user_id: 1, 
     
 )
@@ -2533,7 +2533,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.42.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.42.12.png'), 
     user_id: 1, 
     
 )
@@ -2542,7 +2542,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.42.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.42.29.png'), 
     user_id: 1, 
     
 )
@@ -2551,7 +2551,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.43.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.43.01.png'), 
     user_id: 1, 
     
 )
@@ -2560,7 +2560,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.43.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.43.24.png'), 
     user_id: 1, 
     
 )
@@ -2569,7 +2569,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.43.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.43.36.png'), 
     user_id: 1, 
     
 )
@@ -2581,7 +2581,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.43.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.43.49.png'), 
     user_id: 1, 
     
 )
@@ -2590,7 +2590,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.44.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.44.10.png'), 
     user_id: 1, 
     
 )
@@ -2599,7 +2599,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.44.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.44.26.png'), 
     user_id: 1, 
     
 )
@@ -2608,7 +2608,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.44.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.44.46.png'), 
     user_id: 1, 
     
 )
@@ -2617,7 +2617,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.45.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.45.27.png'), 
     user_id: 1, 
     
 )
@@ -2626,7 +2626,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.45.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.45.52.png'), 
     user_id: 1, 
     
 )
@@ -2635,7 +2635,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.46.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.46.04.png'), 
     user_id: 1, 
     
 )
@@ -2644,7 +2644,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.46.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.46.15.png'), 
     user_id: 1, 
     
 )
@@ -2653,7 +2653,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.46.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.46.26.png'), 
     user_id: 1, 
     
 )
@@ -2662,7 +2662,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.46.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.46.57.png'), 
     user_id: 1, 
     
 )
@@ -2672,7 +2672,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.47.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.47.19.png'), 
     user_id: 1, 
     
 )
@@ -2681,7 +2681,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.47.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.47.34.png'), 
     user_id: 1, 
     
 )
@@ -2691,7 +2691,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.47.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.47.51.png'), 
     user_id: 1, 
     
 )
@@ -2700,7 +2700,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.48.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.48.27.png'), 
     user_id: 1, 
     
 )
@@ -2710,7 +2710,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.48.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.48.41.png'), 
     user_id: 1, 
     
 )
@@ -2720,7 +2720,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.48.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.48.57.png'), 
     user_id: 1, 
     
 )
@@ -2729,7 +2729,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.49.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.49.08.png'), 
     user_id: 1, 
     
 )
@@ -2739,7 +2739,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.49.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.49.24.png'), 
     user_id: 1, 
     
 )
@@ -2748,7 +2748,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.49.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.49.40.png'), 
     user_id: 1, 
     
 )
@@ -2757,7 +2757,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.49.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.49.59.png'), 
     user_id: 1, 
     
 )
@@ -2766,7 +2766,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.50.14.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.50.14.png'), 
     user_id: 1, 
     
 )
@@ -2775,7 +2775,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.50.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.50.28.png'), 
     user_id: 1, 
     
 )
@@ -2784,7 +2784,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.51.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.51.01.png'), 
     user_id: 1, 
     
 )
@@ -2794,7 +2794,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.51.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.51.26.png'), 
     user_id: 1, 
     
 )
@@ -2804,7 +2804,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.51.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.51.58.png'), 
     user_id: 1, 
     
 )
@@ -2814,7 +2814,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.52.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.52.13.png'), 
     user_id: 1, 
     
 )
@@ -2824,7 +2824,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.52.31.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.52.31.png'), 
     user_id: 1, 
     
 )
@@ -2834,7 +2834,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.52.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.52.41.png'), 
     user_id: 1, 
     
 )
@@ -2843,7 +2843,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.53.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.53.53.png'), 
     user_id: 1, 
     
 )
@@ -2852,7 +2852,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.54.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.54.04.png'), 
     user_id: 1, 
     
 )
@@ -2862,7 +2862,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.54.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.54.17.png'), 
     user_id: 1, 
     
 )
@@ -2872,7 +2872,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.54.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.54.33.png'), 
     user_id: 1, 
     
 )
@@ -2881,7 +2881,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.55.31.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.55.31.png'), 
     user_id: 1, 
     
 )
@@ -2890,7 +2890,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.55.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.55.44.png'), 
     user_id: 1, 
     
 )
@@ -2900,7 +2900,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.55.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.55.56.png'), 
     user_id: 1, 
     
 )
@@ -2910,7 +2910,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.56.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.56.12.png'), 
     user_id: 1, 
     
 )
@@ -2920,7 +2920,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.56.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.56.24.png'), 
     user_id: 1, 
     
 )
@@ -2929,7 +2929,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.56.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.56.49.png'), 
     user_id: 1, 
     
 )
@@ -2939,7 +2939,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.57.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.57.08.png'), 
     user_id: 1, 
     
 )
@@ -2948,7 +2948,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.57.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.57.27.png'), 
     user_id: 1, 
     
 )
@@ -2958,7 +2958,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.57.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.57.44.png'), 
     user_id: 1, 
     
 )
@@ -2967,7 +2967,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.57.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.57.57.png'), 
     user_id: 1, 
     
 )
@@ -2976,7 +2976,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.58.14.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.58.14.png'), 
     user_id: 1, 
     
 )
@@ -2985,7 +2985,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.58.31.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.58.31.png'), 
     user_id: 1, 
     
 )
@@ -2995,7 +2995,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-19 at 20.58.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-19 at 20.58.42.png'), 
     user_id: 1, 
     
 )
@@ -3005,7 +3005,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.55.00.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.55.00.png'), 
     user_id: 1, 
     
 )
@@ -3014,7 +3014,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.55.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.55.21.png'), 
     user_id: 1, 
     
 )
@@ -3023,7 +3023,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.55.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.55.33.png'), 
     user_id: 1, 
     
 )
@@ -3033,7 +3033,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.56.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.56.13.png'), 
     user_id: 1, 
     
 )
@@ -3042,7 +3042,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.56.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.56.25.png'), 
     user_id: 1, 
     
 )
@@ -3051,7 +3051,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.56.37.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.56.37.png'), 
     user_id: 1, 
     
 )
@@ -3060,7 +3060,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.56.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.56.54.png'), 
     user_id: 1, 
     
 )
@@ -3069,7 +3069,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.08.png'), 
     user_id: 1, 
     
 )
@@ -3079,7 +3079,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.24.png'), 
     user_id: 1, 
     
 )
@@ -3089,7 +3089,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.36.png'), 
     user_id: 1, 
     
 )
@@ -3099,7 +3099,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.49.png'), 
     user_id: 1, 
     
 )
@@ -3108,7 +3108,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 11.57.59.png'), 
     user_id: 1, 
     
 )
@@ -3118,7 +3118,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.03.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.03.17.png'), 
     user_id: 1, 
     
 )
@@ -3128,7 +3128,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.03.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.03.29.png'), 
     user_id: 1, 
     
 )
@@ -3138,7 +3138,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.03.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.03.40.png'), 
     user_id: 1, 
     
 )
@@ -3148,7 +3148,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.03.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.03.57.png'), 
     user_id: 1, 
     
 )
@@ -3158,7 +3158,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.09.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.09.51.png'), 
     user_id: 1, 
     
 )
@@ -3168,7 +3168,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.10.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.10.42.png'), 
     user_id: 1, 
     
 )
@@ -3178,7 +3178,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.10.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.10.57.png'), 
     user_id: 1, 
     
 )
@@ -3189,7 +3189,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.11.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.11.12.png'), 
     user_id: 1, 
     
 )
@@ -3198,7 +3198,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.11.37.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.11.37.png'), 
     user_id: 1, 
     
 )
@@ -3207,7 +3207,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.12.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.12.03.png'), 
     user_id: 1, 
     
 )
@@ -3216,7 +3216,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.12.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.12.34.png'), 
     user_id: 1, 
     
 )
@@ -3226,7 +3226,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.12.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.12.59.png'), 
     user_id: 1, 
     
 )
@@ -3236,7 +3236,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.13.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.13.15.png'), 
     user_id: 1, 
     
 )
@@ -3246,7 +3246,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.13.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.13.29.png'), 
     user_id: 1, 
     
 )
@@ -3256,7 +3256,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.13.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.13.46.png'), 
     user_id: 1, 
     
 )
@@ -3266,7 +3266,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.14.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.14.08.png'), 
     user_id: 1, 
     
 )
@@ -3276,7 +3276,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.14.31.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.14.31.png'), 
     user_id: 1, 
     
 )
@@ -3286,7 +3286,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.15.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.15.03.png'), 
     user_id: 1, 
     
 )
@@ -3296,7 +3296,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.15.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.15.30.png'), 
     user_id: 1, 
     
 )
@@ -3306,7 +3306,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.15.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.15.55.png'), 
     user_id: 1, 
     
 )
@@ -3316,7 +3316,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.16.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.16.10.png'), 
     user_id: 1, 
     
 )
@@ -3325,7 +3325,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.16.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.16.23.png'), 
     user_id: 1, 
     
 )
@@ -3335,7 +3335,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.16.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.16.33.png'), 
     user_id: 1, 
     
 )
@@ -3345,7 +3345,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.19.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.19.12.png'), 
     user_id: 1, 
     
 )
@@ -3355,7 +3355,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.19.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.19.22.png'), 
     user_id: 1, 
     
 )
@@ -3364,7 +3364,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.19.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.19.33.png'), 
     user_id: 1, 
     
 )
@@ -3373,7 +3373,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.20.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.20.07.png'), 
     user_id: 1, 
     
 )
@@ -3383,7 +3383,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.20.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.20.29.png'), 
     user_id: 1, 
     
 )
@@ -3392,7 +3392,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.20.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.20.40.png'), 
     user_id: 1, 
     
 )
@@ -3401,7 +3401,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.21.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.21.17.png'), 
     user_id: 1, 
     
 )
@@ -3411,7 +3411,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.21.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.21.29.png'), 
     user_id: 1, 
     
 )
@@ -3420,7 +3420,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.21.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.21.44.png'), 
     user_id: 1, 
     
 )
@@ -3429,7 +3429,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.21.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.21.59.png'), 
     user_id: 1, 
     
 )
@@ -3438,7 +3438,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.22.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.22.22.png'), 
     user_id: 1, 
     
 )
@@ -3447,7 +3447,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.22.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.22.36.png'), 
     user_id: 1, 
     
 )
@@ -3456,7 +3456,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.23.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.23.01.png'), 
     user_id: 1, 
     
 )
@@ -3465,7 +3465,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.23.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.23.15.png'), 
     user_id: 1, 
     
 )
@@ -3474,7 +3474,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.23.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.23.30.png'), 
     user_id: 1, 
     
 )
@@ -3483,7 +3483,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.23.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.23.55.png'), 
     user_id: 1, 
     
 )
@@ -3495,7 +3495,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.24.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.24.27.png'), 
     user_id: 1, 
     
 )
@@ -3505,7 +3505,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.24.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.24.55.png'), 
     user_id: 1, 
     
 )
@@ -3515,7 +3515,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.25.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.25.09.png'), 
     user_id: 1, 
     
 )
@@ -3525,7 +3525,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.25.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.25.24.png'), 
     user_id: 1, 
     
 )
@@ -3535,7 +3535,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.25.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.25.44.png'), 
     user_id: 1, 
     
 )
@@ -3545,7 +3545,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.25.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.25.57.png'), 
     user_id: 1, 
     
 )
@@ -3555,7 +3555,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.13.png'), 
     user_id: 1, 
     
 )
@@ -3565,7 +3565,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.22.png'), 
     user_id: 1, 
     
 )
@@ -3575,7 +3575,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.34.png'), 
     user_id: 1, 
     
 )
@@ -3585,7 +3585,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.45.png'), 
     user_id: 1, 
     
 )
@@ -3594,7 +3594,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.26.59.png'), 
     user_id: 1, 
     
 )
@@ -3604,7 +3604,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.27.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.27.25.png'), 
     user_id: 1, 
     
 )
@@ -3614,7 +3614,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.27.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.27.44.png'), 
     user_id: 1, 
     
 )
@@ -3624,7 +3624,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.27.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.27.54.png'), 
     user_id: 1, 
     
 )
@@ -3633,7 +3633,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.28.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.28.13.png'), 
     user_id: 1, 
     
 )
@@ -3643,7 +3643,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.28.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.28.30.png'), 
     user_id: 1, 
     
 )
@@ -3652,7 +3652,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.28.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.28.44.png'), 
     user_id: 1, 
     
 )
@@ -3661,7 +3661,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'G難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.28.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.28.55.png'), 
     user_id: 1, 
     
 )
@@ -3671,7 +3671,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.29.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.29.17.png'), 
     user_id: 1, 
     
 )
@@ -3680,7 +3680,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.29.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.29.29.png'), 
     user_id: 1, 
     
 )
@@ -3689,7 +3689,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'E難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.29.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.29.39.png'), 
     user_id: 1, 
     
 )
@@ -3699,7 +3699,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.29.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.29.52.png'), 
     user_id: 1, 
     
 )
@@ -3708,7 +3708,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.30.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.30.08.png'), 
     user_id: 1, 
     
 )
@@ -3718,7 +3718,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.30.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.30.51.png'), 
     user_id: 1, 
     
 )
@@ -3728,7 +3728,7 @@ Technique.create(
     event: 'つり輪', 
     difficulty: 'F難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.31.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.31.16.png'), 
     user_id: 1, 
     
 )
@@ -3741,7 +3741,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 1.6, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.32.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.32.42.png'), 
     user_id: 1, 
     
 )
@@ -3750,7 +3750,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 1.8, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.32.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.32.55.png'), 
     user_id: 1, 
     
 )
@@ -3759,7 +3759,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.0, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.33.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.33.15.png'), 
     user_id: 1, 
     
 )
@@ -3768,7 +3768,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.2, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.33.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.33.26.png'), 
     user_id: 1, 
     
 )
@@ -3777,7 +3777,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.4, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.34.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.34.05.png'), 
     user_id: 1, 
     
 )
@@ -3787,7 +3787,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.6, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.34.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.34.27.png'), 
     user_id: 1, 
     
 )
@@ -3796,7 +3796,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.4, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.34.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.34.44.png'), 
     user_id: 1, 
     
 )
@@ -3806,7 +3806,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.8, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.35.00.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.35.00.png'), 
     user_id: 1, 
     
 )
@@ -3816,7 +3816,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.2, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.35.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.35.13.png'), 
     user_id: 1, 
     
 )
@@ -3826,7 +3826,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.0, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.35.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.35.32.png'), 
     user_id: 1, 
     
 )
@@ -3836,7 +3836,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.4, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.35.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.35.52.png'), 
     user_id: 1, 
     
 )
@@ -3845,7 +3845,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.8, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.36.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.36.05.png'), 
     user_id: 1, 
     
 )
@@ -3855,7 +3855,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.2, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.36.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.36.24.png'), 
     user_id: 1, 
     
 )
@@ -3865,7 +3865,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.6, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.36.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.36.34.png'), 
     user_id: 1, 
     
 )
@@ -3875,7 +3875,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.0, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.36.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.36.52.png'), 
     user_id: 1, 
     
 )
@@ -3885,7 +3885,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.0, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.37.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.37.30.png'), 
     user_id: 1, 
     
 )
@@ -3895,7 +3895,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.4, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.37.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.37.39.png'), 
     user_id: 1, 
     
 )
@@ -3905,7 +3905,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.8, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.37.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.37.48.png'), 
     user_id: 1, 
     
 )
@@ -3914,7 +3914,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.6, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.38.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.38.12.png'), 
     user_id: 1, 
     
 )
@@ -3924,7 +3924,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.0, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.38.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.38.36.png'), 
     user_id: 1, 
     
 )
@@ -3934,7 +3934,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.4, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.38.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.38.50.png'), 
     user_id: 1, 
     
 )
@@ -3944,7 +3944,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.8, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.01.png'), 
     user_id: 1, 
     
 )
@@ -3954,7 +3954,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.2, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.16.png'), 
     user_id: 1, 
     
 )
@@ -3964,7 +3964,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.6, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.29.png'), 
     user_id: 1, 
     
 )
@@ -3974,7 +3974,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 6.0, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.41.png'), 
     user_id: 1, 
     
 )
@@ -3984,7 +3984,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.2, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.39.59.png'), 
     user_id: 1, 
     
 )
@@ -3994,7 +3994,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.6, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.40.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.40.13.png'), 
     user_id: 1, 
     
 )
@@ -4004,7 +4004,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.6, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.40.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.40.45.png'), 
     user_id: 1, 
     
 )
@@ -4014,7 +4014,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.6, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.11.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.11.png'), 
     user_id: 1, 
     
 )
@@ -4024,7 +4024,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 6.0, 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.22.png'), 
     user_id: 1, 
     
 )
@@ -4035,7 +4035,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 1.6, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.37.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.37.png'), 
     user_id: 1, 
     
 )
@@ -4044,7 +4044,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 1.8, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.46.png'), 
     user_id: 1, 
     
 )
@@ -4053,7 +4053,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.0, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.41.58.png'), 
     user_id: 1, 
     
 )
@@ -4062,7 +4062,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.4, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.42.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.42.10.png'), 
     user_id: 1, 
     
 )
@@ -4071,7 +4071,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.8, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.42.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.42.23.png'), 
     user_id: 1, 
     
 )
@@ -4081,7 +4081,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.2, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.42.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.42.34.png'), 
     user_id: 1, 
     
 )
@@ -4091,7 +4091,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.4, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.42.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.42.48.png'), 
     user_id: 1, 
     
 )
@@ -4101,7 +4101,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.4, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.43.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.43.22.png'), 
     user_id: 1, 
     
 )
@@ -4111,7 +4111,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.8, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.43.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.43.43.png'), 
     user_id: 1, 
     
 )
@@ -4121,7 +4121,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.2, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.44.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.44.02.png'), 
     user_id: 1, 
     
 )
@@ -4131,7 +4131,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.0, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.44.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.44.19.png'), 
     user_id: 1, 
     
 )
@@ -4141,7 +4141,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.2, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.44.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.44.51.png'), 
     user_id: 1, 
     
 )
@@ -4151,7 +4151,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.6, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.45.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.45.04.png'), 
     user_id: 1, 
     
 )
@@ -4161,7 +4161,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.0, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.45.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.45.27.png'), 
     user_id: 1, 
     
 )
@@ -4171,7 +4171,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.4, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.45.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.45.41.png'), 
     user_id: 1, 
     
 )
@@ -4181,7 +4181,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.8, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.45.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.45.56.png'), 
     user_id: 1, 
     
 )
@@ -4191,7 +4191,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.2, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.46.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.46.05.png'), 
     user_id: 1, 
     
 )
@@ -4201,7 +4201,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.6, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.46.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.46.17.png'), 
     user_id: 1, 
     
 )
@@ -4211,7 +4211,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 6.0, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.46.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.46.29.png'), 
     user_id: 1, 
     
 )
@@ -4221,7 +4221,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.2, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.46.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.46.58.png'), 
     user_id: 1, 
     
 )
@@ -4231,7 +4231,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.6, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.47.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.47.10.png'), 
     user_id: 1, 
     
 )
@@ -4241,7 +4241,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 6.0, 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.47.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.47.21.png'), 
     user_id: 1, 
     
 )
@@ -4251,7 +4251,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 1.6, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.47.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.47.34.png'), 
     user_id: 1, 
     
 )
@@ -4260,7 +4260,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 1.8, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.47.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.47.49.png'), 
     user_id: 1, 
     
 )
@@ -4269,7 +4269,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.0, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.48.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.48.06.png'), 
     user_id: 1, 
     
 )
@@ -4279,7 +4279,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.2, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.48.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.48.21.png'), 
     user_id: 1, 
     
 )
@@ -4289,7 +4289,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.4, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.48.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.48.32.png'), 
     user_id: 1, 
     
 )
@@ -4299,7 +4299,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.8, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.48.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.48.42.png'), 
     user_id: 1, 
     
 )
@@ -4309,7 +4309,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.2, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.49.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.49.07.png'), 
     user_id: 1, 
     
 )
@@ -4319,7 +4319,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.0, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.49.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.49.19.png'), 
     user_id: 1, 
     
 )
@@ -4329,7 +4329,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.4, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.49.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.49.35.png'), 
     user_id: 1, 
     
 )
@@ -4339,7 +4339,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.2, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.50.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.50.17.png'), 
     user_id: 1, 
     
 )
@@ -4349,7 +4349,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.6, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.50.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.50.28.png'), 
     user_id: 1, 
     
 )
@@ -4359,7 +4359,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.0, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.50.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.50.46.png'), 
     user_id: 1, 
     
 )
@@ -4369,7 +4369,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.4, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.51.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.51.09.png'), 
     user_id: 1, 
     
 )
@@ -4379,7 +4379,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.8, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.51.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.51.21.png'), 
     user_id: 1, 
     
 )
@@ -4389,7 +4389,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.2, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.51.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.51.34.png'), 
     user_id: 1, 
     
 )
@@ -4399,7 +4399,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.6, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.51.47.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.51.47.png'), 
     user_id: 1, 
     
 )
@@ -4409,7 +4409,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.2, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.04.png'), 
     user_id: 1, 
     
 )
@@ -4419,7 +4419,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.6, 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.14.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.14.png'), 
     user_id: 1, 
     
 )
@@ -4429,7 +4429,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 1.8, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.27.png'), 
     user_id: 1, 
     
 )
@@ -4438,7 +4438,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.0, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.38.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.38.png'), 
     user_id: 1, 
     
 )
@@ -4447,7 +4447,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.2, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.52.50.png'), 
     user_id: 1, 
     
 )
@@ -4456,7 +4456,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.6, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.01.png'), 
     user_id: 1, 
     
 )
@@ -4465,7 +4465,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.0, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.13.png'), 
     user_id: 1, 
     
 )
@@ -4474,7 +4474,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.0, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.30.png'), 
     user_id: 1, 
     
 )
@@ -4484,7 +4484,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.4, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.44.png'), 
     user_id: 1, 
     
 )
@@ -4493,7 +4493,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.8, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.53.59.png'), 
     user_id: 1, 
     
 )
@@ -4503,7 +4503,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.2, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.54.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.54.10.png'), 
     user_id: 1, 
     
 )
@@ -4513,7 +4513,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.6, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.54.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.54.19.png'), 
     user_id: 1, 
     
 )
@@ -4523,7 +4523,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.0, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.54.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.54.58.png'), 
     user_id: 1, 
     
 )
@@ -4533,7 +4533,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.4, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.55.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.55.18.png'), 
     user_id: 1, 
     
 )
@@ -4543,7 +4543,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.8, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.55.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.55.32.png'), 
     user_id: 1, 
     
 )
@@ -4552,7 +4552,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.4, 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.55.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.55.48.png'), 
     user_id: 1, 
     
 )
@@ -4561,7 +4561,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.2, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.56.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.56.27.png'), 
     user_id: 1, 
     
 )
@@ -4570,7 +4570,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.4, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.56.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.56.49.png'), 
     user_id: 1, 
     
 )
@@ -4579,7 +4579,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.6, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.04.png'), 
     user_id: 1, 
     
 )
@@ -4588,7 +4588,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 2.8, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.20.png'), 
     user_id: 1, 
     
 )
@@ -4597,7 +4597,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.0, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.35.png'), 
     user_id: 1, 
     
 )
@@ -4606,7 +4606,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.0, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.44.png'), 
     user_id: 1, 
     
 )
@@ -4615,7 +4615,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.4, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.57.57.png'), 
     user_id: 1, 
     
 )
@@ -4624,7 +4624,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.8, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.06.png'), 
     user_id: 1, 
     
 )
@@ -4634,7 +4634,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 3.8, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.16.png'), 
     user_id: 1, 
     
 )
@@ -4644,7 +4644,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.2, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.26.png'), 
     user_id: 1, 
     
 )
@@ -4654,7 +4654,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 4.6, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.39.png'), 
     user_id: 1, 
     
 )
@@ -4664,7 +4664,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.0, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.51.png'), 
     user_id: 1, 
     
 )
@@ -4674,7 +4674,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.4, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.58.59.png'), 
     user_id: 1, 
     
 )
@@ -4684,7 +4684,7 @@ Technique.create(
     event: '跳馬', 
     vaultd: 5.8, 
     group2: 'グループV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.59.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.59.09.png'), 
     user_id: 1, 
     
 )
@@ -4698,7 +4698,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 12.59.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 12.59.59.png'), 
     user_id: 1, 
     
 )
@@ -4708,7 +4708,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.00.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.00.13.png'), 
     user_id: 1, 
     
 )
@@ -4718,7 +4718,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.00.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.00.28.png'), 
     user_id: 1, 
     
 )
@@ -4727,7 +4727,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.03.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.03.27.png'), 
     user_id: 1, 
     
 )
@@ -4737,7 +4737,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.03.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.03.50.png'), 
     user_id: 1, 
     
 )
@@ -4747,7 +4747,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.04.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.04.04.png'), 
     user_id: 1, 
     
 )
@@ -4757,7 +4757,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.04.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.04.27.png'), 
     user_id: 1, 
     
 )
@@ -4766,7 +4766,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.04.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.04.40.png'), 
     user_id: 1, 
     
 )
@@ -4776,7 +4776,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.04.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.04.55.png'), 
     user_id: 1, 
     
 )
@@ -4786,7 +4786,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.05.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.05.07.png'), 
     user_id: 1, 
     
 )
@@ -4795,7 +4795,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.05.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.05.42.png'), 
     user_id: 1, 
     
 )
@@ -4804,7 +4804,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.06.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.06.23.png'), 
     user_id: 1, 
     
 )
@@ -4814,7 +4814,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.06.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.06.54.png'), 
     user_id: 1, 
     
 )
@@ -4824,7 +4824,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.07.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.07.17.png'), 
     user_id: 1, 
     
 )
@@ -4834,7 +4834,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.07.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.07.46.png'), 
     user_id: 1, 
     
 )
@@ -4844,7 +4844,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.08.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.08.23.png'), 
     user_id: 1, 
     
 )
@@ -4853,7 +4853,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.08.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.08.34.png'), 
     user_id: 1, 
     
 )
@@ -4863,7 +4863,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.08.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.08.45.png'), 
     user_id: 1, 
     
 )
@@ -4873,7 +4873,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'F難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.08.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.08.57.png'), 
     user_id: 1, 
     
 )
@@ -4883,7 +4883,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.09.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.09.24.png'), 
     user_id: 1, 
     
 )
@@ -4892,7 +4892,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.09.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.09.40.png'), 
     user_id: 1, 
     
 )
@@ -4901,7 +4901,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.10.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.10.05.png'), 
     user_id: 1, 
     
 )
@@ -4911,7 +4911,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.10.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.10.28.png'), 
     user_id: 1, 
     
 )
@@ -4921,7 +4921,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.11.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.11.03.png'), 
     user_id: 1, 
     
 )
@@ -4931,7 +4931,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.11.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.11.23.png'), 
     user_id: 1, 
     
 )
@@ -4941,7 +4941,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.11.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.11.43.png'), 
     user_id: 1, 
     
 )
@@ -4950,7 +4950,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.11.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.11.59.png'), 
     user_id: 1, 
     
 )
@@ -4960,7 +4960,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.12.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.12.13.png'), 
     user_id: 1, 
     
 )
@@ -4970,7 +4970,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.12.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.12.24.png'), 
     user_id: 1, 
     
 )
@@ -4979,7 +4979,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.12.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.12.53.png'), 
     user_id: 1, 
     
 )
@@ -4988,7 +4988,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.13.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.13.12.png'), 
     user_id: 1, 
     
 )
@@ -4998,7 +4998,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.13.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.13.28.png'), 
     user_id: 1, 
     
 )
@@ -5007,7 +5007,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.13.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.13.42.png'), 
     user_id: 1, 
     
 )
@@ -5016,7 +5016,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.13.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.13.55.png'), 
     user_id: 1, 
     
 )
@@ -5026,7 +5026,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.14.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.14.06.png'), 
     user_id: 1, 
     
 )
@@ -5035,7 +5035,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.14.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.14.15.png'), 
     user_id: 1, 
     
 )
@@ -5044,7 +5044,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.14.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.14.53.png'), 
     user_id: 1, 
     
 )
@@ -5053,7 +5053,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.15.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.15.10.png'), 
     user_id: 1, 
     
 )
@@ -5063,7 +5063,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.15.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.15.28.png'), 
     user_id: 1, 
     
 )
@@ -5073,7 +5073,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.15.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.15.39.png'), 
     user_id: 1, 
     
 )
@@ -5083,7 +5083,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.16.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.16.06.png'), 
     user_id: 1, 
     
 )
@@ -5092,7 +5092,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.16.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.16.20.png'), 
     user_id: 1, 
     
 )
@@ -5101,7 +5101,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.16.38.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.16.38.png'), 
     user_id: 1, 
     
 )
@@ -5111,7 +5111,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.17.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.17.06.png'), 
     user_id: 1, 
     
 )
@@ -5121,7 +5121,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.17.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.17.27.png'), 
     user_id: 1, 
     
 )
@@ -5131,7 +5131,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.17.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.17.41.png'), 
     user_id: 1, 
     
 )
@@ -5141,7 +5141,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.17.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.17.57.png'), 
     user_id: 1, 
     
 )
@@ -5150,7 +5150,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.18.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.18.18.png'), 
     user_id: 1, 
     
 )
@@ -5159,7 +5159,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.18.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.18.36.png'), 
     user_id: 1, 
     
 )
@@ -5168,7 +5168,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.19.00.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.19.00.png'), 
     user_id: 1, 
     
 )
@@ -5177,7 +5177,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.19.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.19.18.png'), 
     user_id: 1, 
     
 )
@@ -5187,7 +5187,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.19.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.19.42.png'), 
     user_id: 1, 
     
 )
@@ -5196,7 +5196,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.19.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.19.54.png'), 
     user_id: 1, 
     
 )
@@ -5205,7 +5205,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.20.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.20.06.png'), 
     user_id: 1, 
     
 )
@@ -5214,7 +5214,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.20.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.20.24.png'), 
     user_id: 1, 
     
 )
@@ -5224,7 +5224,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.20.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.20.59.png'), 
     user_id: 1, 
     
 )
@@ -5234,7 +5234,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.22.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.22.24.png'), 
     user_id: 1, 
     
 )
@@ -5244,7 +5244,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.22.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.22.48.png'), 
     user_id: 1, 
     
 )
@@ -5254,7 +5254,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.23.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.23.07.png'), 
     user_id: 1, 
     
 )
@@ -5264,7 +5264,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.23.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.23.26.png'), 
     user_id: 1, 
     
 )
@@ -5274,7 +5274,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.23.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.23.41.png'), 
     user_id: 1, 
     
 )
@@ -5285,7 +5285,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.04.png'), 
     user_id: 1, 
     
 )
@@ -5294,7 +5294,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.15.png'), 
     user_id: 1, 
     
 )
@@ -5303,7 +5303,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.28.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.28.png'), 
     user_id: 1, 
     
 )
@@ -5312,7 +5312,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.42.png'), 
     user_id: 1, 
     
 )
@@ -5322,7 +5322,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.24.56.png'), 
     user_id: 1, 
     
 )
@@ -5330,7 +5330,7 @@ Technique.create(
     name: '前振り上がりからマクーツ経過腕支持', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.25.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.25.10.png'), 
     user_id: 1, 
     
 )
@@ -5340,7 +5340,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'G難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.25.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.25.20.png'), 
     user_id: 1, 
     
 )
@@ -5349,7 +5349,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.25.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.25.43.png'), 
     user_id: 1, 
     
 )
@@ -5359,7 +5359,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.25.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.25.58.png'), 
     user_id: 1, 
     
 )
@@ -5369,7 +5369,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.26.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.26.15.png'), 
     user_id: 1, 
     
 )
@@ -5378,7 +5378,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.26.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.26.33.png'), 
     user_id: 1, 
     
 )
@@ -5387,7 +5387,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.26.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.26.49.png'), 
     user_id: 1, 
     
 )
@@ -5397,7 +5397,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.27.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.27.02.png'), 
     user_id: 1, 
     
 )
@@ -5407,7 +5407,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.27.11.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.27.11.png'), 
     user_id: 1, 
     
 )
@@ -5417,7 +5417,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.27.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.27.30.png'), 
     user_id: 1, 
     
 )
@@ -5427,7 +5427,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.27.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.27.41.png'), 
     user_id: 1, 
     
 )
@@ -5437,7 +5437,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.28.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.28.06.png'), 
     user_id: 1, 
     
 )
@@ -5446,7 +5446,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.28.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.28.16.png'), 
     user_id: 1, 
     
 )
@@ -5455,7 +5455,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.28.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.28.26.png'), 
     user_id: 1, 
     
 )
@@ -5464,7 +5464,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.28.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.28.42.png'), 
     user_id: 1, 
     
 )
@@ -5473,7 +5473,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.29.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.29.07.png'), 
     user_id: 1, 
     
 )
@@ -5482,7 +5482,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.30.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.30.49.png'), 
     user_id: 1, 
     
 )
@@ -5492,7 +5492,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.31.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.31.06.png'), 
     user_id: 1, 
     
 )
@@ -5501,7 +5501,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.31.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.31.15.png'), 
     user_id: 1, 
     
 )
@@ -5510,7 +5510,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.31.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.31.24.png'), 
     user_id: 1, 
     
 )
@@ -5519,7 +5519,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.37.11.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.37.11.png'), 
     user_id: 1, 
     
 )
@@ -5528,7 +5528,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.37.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.37.35.png'), 
     user_id: 1, 
     
 )
@@ -5537,7 +5537,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.37.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.37.58.png'), 
     user_id: 1, 
     
 )
@@ -5548,7 +5548,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.47.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.47.39.png'), 
     user_id: 1, 
     
 )
@@ -5558,7 +5558,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.47.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.47.56.png'), 
     user_id: 1, 
     
 )
@@ -5568,7 +5568,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.48.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.48.05.png'), 
     user_id: 1, 
     
 )
@@ -5577,7 +5577,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.48.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.48.45.png'), 
     user_id: 1, 
     
 )
@@ -5587,7 +5587,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.49.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.49.10.png'), 
     user_id: 1, 
     
 )
@@ -5597,7 +5597,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.49.38.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.49.38.png'), 
     user_id: 1, 
     
 )
@@ -5606,7 +5606,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.50.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.50.22.png'), 
     user_id: 1, 
     
 )
@@ -5616,7 +5616,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.51.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.51.17.png'), 
     user_id: 1, 
     
 )
@@ -5626,7 +5626,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.51.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.51.59.png'), 
     user_id: 1, 
     
 )
@@ -5636,7 +5636,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.52.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.52.16.png'), 
     user_id: 1, 
     
 )
@@ -5646,7 +5646,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.53.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.53.56.png'), 
     user_id: 1, 
     
 )
@@ -5656,7 +5656,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 13.55.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 13.55.18.png'), 
     user_id: 1, 
     
 )
@@ -5666,7 +5666,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.03.png'), 
     user_id: 1, 
     
 )
@@ -5676,7 +5676,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.15.png'), 
     user_id: 1, 
     
 )
@@ -5686,7 +5686,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.36.png'), 
     user_id: 1, 
     
 )
@@ -5696,7 +5696,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.45.png'), 
     user_id: 1, 
     
 )
@@ -5706,7 +5706,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'G難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.01.54.png'), 
     user_id: 1, 
     
 )
@@ -5716,7 +5716,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.02.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.02.10.png'), 
     user_id: 1, 
     
 )
@@ -5726,7 +5726,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.02.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.02.34.png'), 
     user_id: 1, 
     
 )
@@ -5736,7 +5736,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.02.47.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.02.47.png'), 
     user_id: 1, 
     
 )
@@ -5746,7 +5746,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.03.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.03.04.png'), 
     user_id: 1, 
     
 )
@@ -5756,7 +5756,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.03.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.03.19.png'), 
     user_id: 1, 
     
 )
@@ -5766,7 +5766,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.03.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.03.35.png'), 
     user_id: 1, 
     
 )
@@ -5776,7 +5776,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.03.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.03.51.png'), 
     user_id: 1, 
     
 )
@@ -5786,7 +5786,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.00.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.00.png'), 
     user_id: 1, 
     
 )
@@ -5796,7 +5796,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.11.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.11.png'), 
     user_id: 1, 
     
 )
@@ -5806,7 +5806,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'F難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.21.png'), 
     user_id: 1, 
     
 )
@@ -5815,7 +5815,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.41.png'), 
     user_id: 1, 
     
 )
@@ -5824,7 +5824,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.04.53.png'), 
     user_id: 1, 
     
 )
@@ -5834,7 +5834,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.05.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.05.07.png'), 
     user_id: 1, 
     
 )
@@ -5844,7 +5844,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.05.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.05.21.png'), 
     user_id: 1, 
     
 )
@@ -5853,7 +5853,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.05.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.05.36.png'), 
     user_id: 1, 
     
 )
@@ -5862,7 +5862,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.05.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.05.50.png'), 
     user_id: 1, 
     
 )
@@ -5871,7 +5871,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.06.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.06.05.png'), 
     user_id: 1, 
     
 )
@@ -5880,7 +5880,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.06.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.06.16.png'), 
     user_id: 1, 
     
 )
@@ -5890,7 +5890,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.06.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.06.56.png'), 
     user_id: 1, 
     
 )
@@ -5899,7 +5899,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.07.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.07.33.png'), 
     user_id: 1, 
     
 )
@@ -5908,7 +5908,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.07.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.07.44.png'), 
     user_id: 1, 
     
 )
@@ -5917,7 +5917,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.08.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.08.04.png'), 
     user_id: 1, 
     
 )
@@ -5926,7 +5926,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.08.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.08.29.png'), 
     user_id: 1, 
     
 )
@@ -5935,7 +5935,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.08.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.08.57.png'), 
     user_id: 1, 
     
 )
@@ -5944,7 +5944,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.09.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.09.23.png'), 
     user_id: 1, 
     
 )
@@ -5954,7 +5954,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.09.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.09.32.png'), 
     user_id: 1, 
     
 )
@@ -5963,7 +5963,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.09.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.09.46.png'), 
     user_id: 1, 
     
 )
@@ -5973,7 +5973,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'F難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.09.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.09.58.png'), 
     user_id: 1, 
     
 )
@@ -5983,7 +5983,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.10.14.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.10.14.png'), 
     user_id: 1, 
     
 )
@@ -5993,7 +5993,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'G難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.10.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.10.26.png'), 
     user_id: 1, 
     
 )
@@ -6002,7 +6002,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.10.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.10.45.png'), 
     user_id: 1, 
     
 )
@@ -6011,7 +6011,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.11.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.11.08.png'), 
     user_id: 1, 
     
 )
@@ -6020,7 +6020,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.11.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.11.30.png'), 
     user_id: 1, 
     
 )
@@ -6030,7 +6030,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.11.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.11.44.png'), 
     user_id: 1, 
     
 )
@@ -6040,7 +6040,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'G難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.12.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.12.45.png'), 
     user_id: 1, 
     
 )
@@ -6049,7 +6049,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.13.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.13.06.png'), 
     user_id: 1, 
     
 )
@@ -6058,7 +6058,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.13.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.13.19.png'), 
     user_id: 1, 
     
 )
@@ -6068,7 +6068,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.13.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.13.33.png'), 
     user_id: 1, 
     
 )
@@ -6077,7 +6077,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.18.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.18.07.png'), 
     user_id: 1, 
     
 )
@@ -6086,7 +6086,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.18.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.18.17.png'), 
     user_id: 1, 
     
 )
@@ -6095,7 +6095,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.18.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.18.29.png'), 
     user_id: 1, 
     
 )
@@ -6104,7 +6104,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.18.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.18.45.png'), 
     user_id: 1, 
     
 )
@@ -6113,7 +6113,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.10.png'), 
     user_id: 1, 
     
 )
@@ -6123,7 +6123,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.24.png'), 
     user_id: 1, 
     
 )
@@ -6133,7 +6133,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.34.png'), 
     user_id: 1, 
     
 )
@@ -6142,7 +6142,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'E難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.43.png'), 
     user_id: 1, 
     
 )
@@ -6152,7 +6152,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'F難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.19.54.png'), 
     user_id: 1, 
     
 )
@@ -6161,7 +6161,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.20.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.20.07.png'), 
     user_id: 1, 
     
 )
@@ -6170,7 +6170,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'F難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.20.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.20.20.png'), 
     user_id: 1, 
     
 )
@@ -6179,7 +6179,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'G難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.02.png'), 
     user_id: 1, 
     
 )
@@ -6188,7 +6188,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.16.png'), 
     user_id: 1, 
     
 )
@@ -6198,7 +6198,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.25.png'), 
     user_id: 1, 
     
 )
@@ -6208,7 +6208,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.44.png'), 
     user_id: 1, 
     
 )
@@ -6218,7 +6218,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.21.59.png'), 
     user_id: 1, 
     
 )
@@ -6228,7 +6228,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'G難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.22.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.22.12.png'), 
     user_id: 1, 
     
 )
@@ -6238,7 +6238,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.22.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.22.29.png'), 
     user_id: 1, 
     
 )
@@ -6247,7 +6247,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.22.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.22.29.png'), 
     user_id: 1, 
     
 )
@@ -6256,7 +6256,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.22.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.22.53.png'), 
     user_id: 1, 
     
 )
@@ -6265,7 +6265,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.09.png'), 
     user_id: 1, 
     
 )
@@ -6275,7 +6275,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'G難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.19.png'), 
     user_id: 1, 
     
 )
@@ -6284,7 +6284,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.32.png'), 
     user_id: 1, 
     
 )
@@ -6293,7 +6293,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.47.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.47.png'), 
     user_id: 1, 
     
 )
@@ -6302,7 +6302,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.23.56.png'), 
     user_id: 1, 
     
 )
@@ -6311,7 +6311,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.24.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.24.08.png'), 
     user_id: 1, 
     
 )
@@ -6321,7 +6321,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.24.21.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.24.21.png'), 
     user_id: 1, 
     
 )
@@ -6330,7 +6330,7 @@ Technique.create(
     event: '平行棒', 
     difficulty: 'F難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.24.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.24.35.png'), 
     user_id: 1, 
     
 )
@@ -6343,7 +6343,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.30.50.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.30.50.png'), 
     user_id: 1, 
     
 )
@@ -6352,7 +6352,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.31.18.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.31.18.png'), 
     user_id: 1, 
     
 )
@@ -6361,7 +6361,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.31.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.31.46.png'), 
     user_id: 1, 
     
 )
@@ -6370,7 +6370,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.31.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.31.54.png'), 
     user_id: 1, 
     
 )
@@ -6379,7 +6379,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.06.png'), 
     user_id: 1, 
     
 )
@@ -6388,7 +6388,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.23.png'), 
     user_id: 1, 
     
 )
@@ -6397,7 +6397,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.34.png'), 
     user_id: 1, 
     
 )
@@ -6406,7 +6406,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.44.png'), 
     user_id: 1, 
     
 )
@@ -6415,7 +6415,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.32.58.png'), 
     user_id: 1, 
     
 )
@@ -6424,7 +6424,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.06.png'), 
     user_id: 1, 
     
 )
@@ -6433,7 +6433,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.12.png'), 
     user_id: 1, 
     
 )
@@ -6442,7 +6442,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.26.png'), 
     user_id: 1, 
     
 )
@@ -6452,7 +6452,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.43.png'), 
     user_id: 1, 
     
 )
@@ -6461,7 +6461,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.33.57.png'), 
     user_id: 1, 
     
 )
@@ -6470,7 +6470,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.34.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.34.25.png'), 
     user_id: 1, 
     
 )
@@ -6479,7 +6479,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.34.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.34.40.png'), 
     user_id: 1, 
     
 )
@@ -6488,7 +6488,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.34.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.34.55.png'), 
     user_id: 1, 
     
 )
@@ -6497,7 +6497,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.35.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.35.05.png'), 
     user_id: 1, 
     
 )
@@ -6507,7 +6507,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.35.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.35.25.png'), 
     user_id: 1, 
     
 )
@@ -6517,7 +6517,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.35.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.35.36.png'), 
     user_id: 1, 
     
 )
@@ -6527,7 +6527,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.35.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.35.52.png'), 
     user_id: 1, 
     
 )
@@ -6537,7 +6537,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.03.png'), 
     user_id: 1, 
     
 )
@@ -6547,7 +6547,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.12.png'), 
     user_id: 1, 
     
 )
@@ -6556,7 +6556,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.23.png'), 
     user_id: 1, 
     
 )
@@ -6565,7 +6565,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.42.png'), 
     user_id: 1, 
     
 )
@@ -6574,7 +6574,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.36.59.png'), 
     user_id: 1, 
     
 )
@@ -6583,7 +6583,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.09.png'), 
     user_id: 1, 
     
 )
@@ -6592,7 +6592,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.17.png'), 
     user_id: 1, 
     
 )
@@ -6602,7 +6602,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.29.png'), 
     user_id: 1, 
     
 )
@@ -6612,7 +6612,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.39.png'), 
     user_id: 1, 
     
 )
@@ -6621,7 +6621,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.37.53.png'), 
     user_id: 1, 
     
 )
@@ -6630,7 +6630,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループI', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.38.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.38.05.png'), 
     user_id: 1, 
     
 )
@@ -6641,7 +6641,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.38.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.38.24.png'), 
     user_id: 1, 
     
 )
@@ -6651,7 +6651,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.38.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.38.39.png'), 
     user_id: 1, 
     
 )
@@ -6661,7 +6661,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.38.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.38.51.png'), 
     user_id: 1, 
     
 )
@@ -6671,7 +6671,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.02.png'), 
     user_id: 1, 
     
 )
@@ -6681,7 +6681,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.16.png'), 
     user_id: 1, 
     
 )
@@ -6691,7 +6691,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.26.png'), 
     user_id: 1, 
     
 )
@@ -6701,7 +6701,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.37.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.37.png'), 
     user_id: 1, 
     
 )
@@ -6711,7 +6711,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.39.51.png'), 
     user_id: 1, 
     
 )
@@ -6721,7 +6721,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.40.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.40.20.png'), 
     user_id: 1, 
     
 )
@@ -6731,7 +6731,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.40.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.40.33.png'), 
     user_id: 1, 
     
 )
@@ -6741,7 +6741,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.40.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.40.44.png'), 
     user_id: 1, 
     
 )
@@ -6751,7 +6751,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.40.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.40.58.png'), 
     user_id: 1, 
     
 )
@@ -6761,7 +6761,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.41.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.41.07.png'), 
     user_id: 1, 
     
 )
@@ -6771,7 +6771,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.41.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.41.29.png'), 
     user_id: 1, 
     
 )
@@ -6781,7 +6781,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.41.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.41.46.png'), 
     user_id: 1, 
     
 )
@@ -6791,7 +6791,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.42.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.42.02.png'), 
     user_id: 1, 
     
 )
@@ -6800,7 +6800,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.42.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.42.16.png'), 
     user_id: 1, 
     
 )
@@ -6810,7 +6810,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'G難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.42.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.42.30.png'), 
     user_id: 1, 
     
 )
@@ -6820,7 +6820,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.42.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.42.55.png'), 
     user_id: 1, 
     
 )
@@ -6830,7 +6830,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.03.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.03.png'), 
     user_id: 1, 
     
 )
@@ -6840,7 +6840,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.12.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.12.png'), 
     user_id: 1, 
     
 )
@@ -6850,7 +6850,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'G難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.25.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.25.png'), 
     user_id: 1, 
     
 )
@@ -6860,7 +6860,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.36.png'), 
     user_id: 1, 
     
 )
@@ -6870,7 +6870,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.44.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.44.png'), 
     user_id: 1, 
     
 )
@@ -6880,7 +6880,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.43.57.png'), 
     user_id: 1, 
     
 )
@@ -6890,7 +6890,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'F難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.44.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.44.09.png'), 
     user_id: 1, 
     
 )
@@ -6899,7 +6899,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.44.29.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.44.29.png'), 
     user_id: 1, 
     
 )
@@ -6909,7 +6909,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.44.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.44.40.png'), 
     user_id: 1, 
     
 )
@@ -6919,7 +6919,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'G難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.44.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.44.48.png'), 
     user_id: 1, 
     
 )
@@ -6929,7 +6929,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.02.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.02.png'), 
     user_id: 1, 
     
 )
@@ -6939,7 +6939,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'G難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.13.png'), 
     user_id: 1, 
     
 )
@@ -6949,7 +6949,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.26.png'), 
     user_id: 1, 
     
 )
@@ -6959,7 +6959,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'G難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.37.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.37.png'), 
     user_id: 1, 
     
 )
@@ -6969,7 +6969,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.45.54.png'), 
     user_id: 1, 
     
 )
@@ -6979,7 +6979,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.01.png'), 
     user_id: 1, 
     
 )
@@ -6989,7 +6989,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.13.png'), 
     user_id: 1, 
     
 )
@@ -6999,7 +6999,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.24.png'), 
     user_id: 1, 
     
 )
@@ -7009,7 +7009,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.36.png'), 
     user_id: 1, 
     
 )
@@ -7019,7 +7019,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'H難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.47.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.47.png'), 
     user_id: 1, 
     
 )
@@ -7029,7 +7029,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.59.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.46.59.png'), 
     user_id: 1, 
     
 )
@@ -7039,7 +7039,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'G難度', 
     group2: 'グループII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.13.png'), 
     user_id: 1, 
     
 )
@@ -7051,7 +7051,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.24.png'), 
     user_id: 1, 
     
 )
@@ -7060,7 +7060,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.34.png'), 
     user_id: 1, 
     
 )
@@ -7069,7 +7069,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.45.png'), 
     user_id: 1, 
     
 )
@@ -7079,7 +7079,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.47.56.png'), 
     user_id: 1, 
     
 )
@@ -7089,7 +7089,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.07.png'), 
     user_id: 1, 
     
 )
@@ -7099,7 +7099,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.16.png'), 
     user_id: 1, 
     
 )
@@ -7108,7 +7108,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.26.png'), 
     user_id: 1, 
     
 )
@@ -7118,7 +7118,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.45.png'), 
     user_id: 1, 
     
 )
@@ -7127,7 +7127,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.48.58.png'), 
     user_id: 1, 
     
 )
@@ -7136,7 +7136,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.49.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.49.06.png'), 
     user_id: 1, 
     
 )
@@ -7145,7 +7145,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.49.20.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.49.20.png'), 
     user_id: 1, 
     
 )
@@ -7154,7 +7154,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.49.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.49.34.png'), 
     user_id: 1, 
     
 )
@@ -7164,7 +7164,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.50.04.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.50.04.png'), 
     user_id: 1, 
     
 )
@@ -7174,7 +7174,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.50.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.50.23.png'), 
     user_id: 1, 
     
 )
@@ -7184,7 +7184,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.50.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.50.33.png'), 
     user_id: 1, 
     
 )
@@ -7194,7 +7194,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.50.47.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.50.47.png'), 
     user_id: 1, 
     
 )
@@ -7204,7 +7204,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.00.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.00.png'), 
     user_id: 1, 
     
 )
@@ -7214,7 +7214,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.13.png'), 
     user_id: 1, 
     
 )
@@ -7224,7 +7224,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.33.png'), 
     user_id: 1, 
     
 )
@@ -7234,7 +7234,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.42.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.42.png'), 
     user_id: 1, 
     
 )
@@ -7244,7 +7244,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.51.58.png'), 
     user_id: 1, 
     
 )
@@ -7254,7 +7254,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.52.19.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.52.19.png'), 
     user_id: 1, 
     
 )
@@ -7264,7 +7264,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.52.40.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.52.40.png'), 
     user_id: 1, 
     
 )
@@ -7274,7 +7274,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.52.52.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.52.52.png'), 
     user_id: 1, 
     
 )
@@ -7283,7 +7283,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.53.24.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.53.24.png'), 
     user_id: 1, 
     
 )
@@ -7292,7 +7292,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.53.43.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.53.43.png'), 
     user_id: 1, 
     
 )
@@ -7302,7 +7302,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.53.55.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.53.55.png'), 
     user_id: 1, 
     
 )
@@ -7311,7 +7311,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.54.27.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.54.27.png'), 
     user_id: 1, 
     
 )
@@ -7321,7 +7321,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.54.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.54.46.png'), 
     user_id: 1, 
     
 )
@@ -7331,7 +7331,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.07.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.07.png'), 
     user_id: 1, 
     
 )
@@ -7341,7 +7341,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.17.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.17.png'), 
     user_id: 1, 
     
 )
@@ -7350,7 +7350,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.26.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.26.png'), 
     user_id: 1, 
     
 )
@@ -7360,7 +7360,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.39.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.39.png'), 
     user_id: 1, 
     
 )
@@ -7370,7 +7370,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.53.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.55.53.png'), 
     user_id: 1, 
     
 )
@@ -7380,7 +7380,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.56.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.56.13.png'), 
     user_id: 1, 
     
 )
@@ -7390,7 +7390,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 14.56.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 14.56.22.png'), 
     user_id: 1, 
     
 )
@@ -7400,7 +7400,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.02.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.02.56.png'), 
     user_id: 1, 
     
 )
@@ -7409,7 +7409,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.04.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.04.30.png'), 
     user_id: 1, 
     
 )
@@ -7418,7 +7418,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.04.45.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.04.45.png'), 
     user_id: 1, 
     
 )
@@ -7428,7 +7428,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.05.00.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.05.00.png'), 
     user_id: 1, 
     
 )
@@ -7438,7 +7438,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.05.16.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.05.16.png'), 
     user_id: 1, 
     
 )
@@ -7448,7 +7448,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループIII', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.05.32.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.05.32.png'), 
     user_id: 1, 
     
 )
@@ -7460,7 +7460,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.05.57.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.05.57.png'), 
     user_id: 1, 
     
 )
@@ -7470,7 +7470,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.06.13.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.06.13.png'), 
     user_id: 1, 
     
 )
@@ -7480,7 +7480,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.06.34.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.06.34.png'), 
     user_id: 1, 
     
 )
@@ -7490,7 +7490,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'G難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.06.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.06.54.png'), 
     user_id: 1, 
     
 )
@@ -7500,7 +7500,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.07.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.07.09.png'), 
     user_id: 1, 
     
 )
@@ -7510,7 +7510,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.07.30.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.07.30.png'), 
     user_id: 1, 
     
 )
@@ -7520,7 +7520,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.07.41.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.07.41.png'), 
     user_id: 1, 
     
 )
@@ -7530,7 +7530,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.08.08.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.08.08.png'), 
     user_id: 1, 
     
 )
@@ -7540,7 +7540,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.08.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.08.23.png'), 
     user_id: 1, 
     
 )
@@ -7550,7 +7550,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.08.54.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.08.54.png'), 
     user_id: 1, 
     
 )
@@ -7560,7 +7560,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.09.06.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.09.06.png'), 
     user_id: 1, 
     
 )
@@ -7570,7 +7570,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.09.33.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.09.33.png'), 
     user_id: 1, 
     
 )
@@ -7580,7 +7580,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.09.56.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.09.56.png'), 
     user_id: 1, 
     
 )
@@ -7590,7 +7590,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.10.05.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.10.05.png'), 
     user_id: 1, 
     
 )
@@ -7600,7 +7600,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.10.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.10.48.png'), 
     user_id: 1, 
     
 )
@@ -7610,7 +7610,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.10.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.10.58.png'), 
     user_id: 1, 
     
 )
@@ -7620,7 +7620,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.11.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.11.10.png'), 
     user_id: 1, 
     
 )
@@ -7629,7 +7629,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.11.36.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.11.36.png'), 
     user_id: 1, 
     
 )
@@ -7639,7 +7639,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.11.49.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.11.49.png'), 
     user_id: 1, 
     
 )
@@ -7649,7 +7649,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'E難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.12.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.12.01.png'), 
     user_id: 1, 
     
 )
@@ -7659,7 +7659,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'F難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.12.15.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.12.15.png'), 
     user_id: 1, 
     
 )
@@ -7669,7 +7669,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'F難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.12.35.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.12.35.png'), 
     user_id: 1, 
     
 )
@@ -7678,7 +7678,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.12.51.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.12.51.png'), 
     user_id: 1, 
     
 )
@@ -7687,7 +7687,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.01.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.01.png'), 
     user_id: 1, 
     
 )
@@ -7696,7 +7696,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.10.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.10.png'), 
     user_id: 1, 
     
 )
@@ -7706,7 +7706,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'G難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.22.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.22.png'), 
     user_id: 1, 
     
 )
@@ -7715,7 +7715,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'C難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.46.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.46.png'), 
     user_id: 1, 
     
 )
@@ -7725,7 +7725,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.58.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.13.58.png'), 
     user_id: 1, 
     
 )
@@ -7735,7 +7735,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'G難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.14.09.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.14.09.png'), 
     user_id: 1, 
     
 )
@@ -7745,7 +7745,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'A難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.14.23.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.14.23.png'), 
     user_id: 1, 
     
 )
@@ -7755,7 +7755,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'B難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.14.38.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.14.38.png'), 
     user_id: 1, 
     
 )
@@ -7764,7 +7764,7 @@ Technique.create(
     event: '鉄棒', 
     difficulty: 'D難度', 
     group2: 'グループIV', 
-    image: open('./app/assets/images/techniques/Screen Shot 2020-12-20 at 15.14.48.png'), 
+    image: open('./public/assets/images/techniques/Screen Shot 2020-12-20 at 15.14.48.png'), 
     user_id: 1, 
     
 )
