@@ -73,7 +73,7 @@ group :production do
 end
 
 
-gem "asset_sync"
+# gem "asset_sync"
 
 
-gem 'fog-aws'
+# gem 'fog-aws'
