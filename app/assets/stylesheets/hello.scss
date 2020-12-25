@@ -4,19 +4,19 @@
     overflow: hidden;
     position: relative;
 }
-.hello-gymulation .layer-black {
-    background: rgba(7,11,22, 0.4);
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-}
-.hello-gymulation .layer-red {
-    background: rgb(153, 31, 31);
-}
+// .hello-gymulation .layer-black {
+//     background: rgba(7,11,22, 0.4);
+//     height: 100vh;
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     position: absolute;
+// }
+// .hello-gymulation .layer-red {
+//     background: rgb(153, 31, 31);
+// }
 .hello-gymulation .layer {
     height: 100vh;
     width: 100%;
@@ -78,13 +78,18 @@
     font-family: "Noto Serif JP", "Noto Serif", serif;
     animation: fadeIn 3.5s ease-out 1.5s forwards;
     opacity: 0;
+    @media screen and (max-width: 480px) {
+        font-size: 3rem;
+        line-height: 30px;
+    }
 }
 
 .second-page {
-    height: 100vh;
+    min-height: 100vh;
 }
 .three-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .three-items .item {
@@ -92,12 +97,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 30px;
 }
 .three-items .item h2 {
     margin: 10px;
 }
 .three-items .item p {
-    width: 50vh;
+    // width: 50vh;
 }
 .three-items .item a {
 	display: block;

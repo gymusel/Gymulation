@@ -51,6 +51,9 @@ header a.active, header a:hover {
 .header-list {
     margin: 0 0 0 auto;
     animation: fadeIn 3.5s ease-out forwards;
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
 }
 .menu {
     list-style: none;

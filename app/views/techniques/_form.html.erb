@@ -2,28 +2,27 @@
     <br>
     <%= f.radio_button :event, "ゆか" %>ゆか
     <%= f.radio_button :event, "あん馬" %>あん馬
-    <%= f.radio_button :event, "つり輪" %>つり輪
+    <%= f.radio_button :event, "つり輪" %>つり輪<br>
     <%= f.radio_button :event, "跳馬" %>跳馬
     <%= f.radio_button :event, "平行棒" %>平行棒
     <%= f.radio_button :event, "鉄棒" %>鉄棒
     <br><br>
     <%= f.radio_button :difficulty, "A難度" %>A難度
     <%= f.radio_button :difficulty, "B難度" %>B難度
-    <%= f.radio_button :difficulty, "C難度" %>C難度
+    <%= f.radio_button :difficulty, "C難度" %>C難度<br>
     <%= f.radio_button :difficulty, "D難度" %>D難度
     <%= f.radio_button :difficulty, "E難度" %>E難度
-    <%= f.radio_button :difficulty, "F難度" %>F難度
+    <%= f.radio_button :difficulty, "F難度" %>F難度<br>
     <%= f.radio_button :difficulty, "G難度" %>G難度
     <%= f.radio_button :difficulty, "H難度" %>H難度
     <%= f.radio_button :difficulty, "I難度" %>I難度
-    <%= f.radio_button :difficulty, "J難度" %>J難度
     <br><br>
-    <%= f.number_field :vaultd, min: "0", step: "0.1", class: "event-field", placeholder: "跳馬の技を申請する場合は技の価値点を入力" %>
+    <%= f.number_field :vaultd, min: "0", step: "0.1", id: "field", placeholder: "跳馬の技を申請する場合は技の価値点を入力" %>
     <br><br>
     <%= f.radio_button :group2, "グループI" %>グループI
-    <%= f.radio_button :group2, "グループII" %>グループII
+    <%= f.radio_button :group2, "グループII" %>グループII<br>
     <%= f.radio_button :group2, "グループIII" %>グループIII
-    <%= f.radio_button :group2, "グループIV" %>グループIV
+    <%= f.radio_button :group2, "グループIV" %>グループIV<br>
     <%= f.radio_button :group2, "グループV" %>グループV
     <br><br>
     <%= f.text_field :name, :placeholder => "技の名前を入力（例：シライ3）", id: "field" %>

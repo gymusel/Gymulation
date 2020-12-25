@@ -5,6 +5,8 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1" />
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -136,6 +138,39 @@
       </div>
 
       <p class="copyright">Copyright © Shigeki Yamaguchi All Rights Reserved.</p>
+
+      <div class="smartmenu">
+        <div class="icon">
+          <%= link_to search_users_path do %>
+            <i class="fas fa-people-arrows fa-3x"></i>
+            <p>選手を探す</p>
+          <% end %>
+        </div>
+        <div class="icon">
+          <%= link_to techniques_path do %>
+            <i class="fas fa-child fa-3x"></i>
+            <p>技を探す</p>
+          <% end %>
+        </div>
+        <div class="icon">
+          <%= link_to new_post_path do %>
+            <i class="far fa-plus-square fa-3x"></i>
+            <p>動画を投稿</p>
+          <% end %>
+        </div>
+        <div class="icon">
+          <%= link_to posts_path do %>
+            <i class="fab fa-youtube fa-3x"></i>
+            <p>動画を探す</p>
+          <% end %>
+        </div>
+        <div class="icon">
+          <%= link_to posts_path do %>
+            <i class="fas fa-user-circle fa-3x"></i>
+            <p>マイページ</p>
+          <% end %>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

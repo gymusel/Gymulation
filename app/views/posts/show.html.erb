@@ -7,7 +7,7 @@
                         <% if @post.user.image? %>
                             <a href="/users/<%= @post.user.id %>"><%= image_tag @post.user.image_url, class: "profile-image-s" if @post.user.image? %></a>
                         <% else %>
-                            <a href="/users/<%= @post.user.id %>"><i class="fab fa-battle-net fa-4x profile-image-s"></i></a>
+                            <a href="/users/<%= @post.user.id %>"><i class="fab fa-battle-net profile-image-s"></i></a>
                         <% end %>
                     </div>
 
@@ -41,12 +41,12 @@
                         <div class="like">
                             <% if current_user.already_liked?(@post) %>
                                 <%=link_to post_like_path(@post), method: :delete, :style=>"color:#E0245E;" do%>
-                                    <i class="fas fa-heart fa-5x"></i>
+                                    <i class="fas fa-heart fa-3x"></i>
                                     <p>いいねを取り消す</p>
                                 <%end%>
                             <% else %>
                                 <%=link_to post_likes_path(@post), method: :post do%>
-                                    <i class="far fa-heart fa-5x"></i>
+                                    <i class="far fa-heart fa-3x"></i>
                                     <p>いいねする</p>
                                 <%end%>
                             <% end %>
@@ -83,7 +83,7 @@
                         <% if c.user.image? %>
                             <a href="/users/<%= c.user.id %>"><%= image_tag c.user.image_url, class: "profile-image-s" %></a>
                         <% else %>
-                            <a href="/users/<%= c.user.id %>"><i class="fab fa-battle-net fa-4x profile-image-s"></i></a>
+                            <a href="/users/<%= c.user.id %>"><i class="fab fa-battle-net fa-3x profile-image-s"></i></a>
                         <% end %>
                         
                         <div class="contents">
@@ -95,7 +95,7 @@
                         <% if user_signed_in? && c.user_id == current_user.id %>
                             <div class="delete-button">
                                 <%= link_to post_comment_path(@post, c.id), method: :delete do %>
-                                    <p><i class="fas fa-trash-alt fa-3x"></i></p>
+                                    <p><i class="fas fa-trash-alt"></i></p>
                                 <% end %>
                             </div>
                         <% end %>

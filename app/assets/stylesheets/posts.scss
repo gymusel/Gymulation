@@ -3,16 +3,16 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 -10px;
-  @media print, screen and (min-width: 1000px) {
+  @media print, screen and (min-width: 1080px) {
     margin: 0 -20px;
   }
 }
 .post {
   box-sizing: border-box;
-  flex-basis: 50%;
-  max-width: 50%;
+  // flex-basis: 100%;
+  max-width: 100%;
   padding: 10px;
-  @media print, screen and (min-width: 1000px) {
+  @media print, screen and (min-width: 1080px) {
     flex-basis: 33.3%;
     max-width: 33.3%;
     padding: 20px;
@@ -23,18 +23,45 @@
   align-items: center;
 }
 .post .body {
-  padding: 0 0 15px 70px;
+  @media print, screen and (min-width: 1000px) {
+    padding: 0 0 15px 70px;
+  }
+  @media print, screen and (max-width: 480px) {
+    padding: 10px 5px;
+    font-size: 4vw;
+  }
+}
+.post .time {
+  @media print, screen and (max-width: 480px) {
+    font-size: 2vw;
+  }
 }
 
 
 // posts#show
 .post-show .up {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .post-show .buttons {
-  margin: 0px 40px;
+  margin: 0px auto;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.post-show .buttons i {
+  @media screen and (min-width: 1080px){
+    height: 60px;
+    width: 60px;
+    font-size: 4vw;
+  }
+}
+.post-show .buttons p {
+  @media screen and (max-width: 480px){
+    font-size: 3vw;
+  }
 }
 .fa-stack-1x {
   // font-size: 0.9em;
@@ -42,7 +69,7 @@
   // margin-top: 8px;
 }
 .post-show .buttons .edit {
-  margin: 50px 0;
+  margin: 50px;
 }
 .post-show .buttons .delete a:hover {
   color: #E0245E;

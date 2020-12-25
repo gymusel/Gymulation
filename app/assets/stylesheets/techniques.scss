@@ -1,22 +1,40 @@
 // techniques
 .techniques {
-    margin: 50px auto 0;
-    padding-top: 50px;
+    // margin: 50px auto 0;
+    // padding-top: 50px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin: 0 -20px;
+    @media print, screen and (min-width: 1080px) {
+        margin: 0 -40px;
+    }
 }
 .tech-box {
-    width: 30%;
-    margin-bottom: 50px;
+    // width: 30%;
+    // margin-bottom: 50px;
+
+    box-sizing: border-box;
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 20px;
+    @media print, screen and (min-width: 1080px) {
+        flex-basis: 33.3%;
+        max-width: 33.3%;
+        padding: 40px;
+    }
 }
 .image-box {
     display: flex;
     justify-content: center;
 }
 .tech-image {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
     background-color: #253341;
 }
 .description {
@@ -32,30 +50,29 @@
 // techniques#show
 .tech-show-box {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 .tech-show-image {
     width: 300px;
     height: 300px;
 }
-.tech-contents {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
+.tech-show-box .details {
+    // font-size: 1.5em;
 }
-.tech-contents .detail {
+.tech-show-button {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 1.5em;
-}
-.tech-contents .buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    text-align: center;
+    margin: 20px;
 }
-.tech-contents .buttons .delete a:hover {
+.tech-show-button i {
+    margin-right: 10px;
+}
+.tech-show-box .buttons .delete a:hover {
     color: #E0245E;
+}
+
+.form-box {
+    font-size: 1.3rem;
 }

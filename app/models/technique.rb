@@ -34,12 +34,14 @@ class Technique < ApplicationRecord
         name_like(search_params[:name])
           .event_like(search_params[:event])
           .difficulty_like(search_params[:difficulty])
+          .vaultd(search_params[:vaultd])
           .group2_like(search_params[:group2])
     end
     
     scope :name_like, -> (name) { where('name LIKE ?', "%#{name}%").or(where('subname LIKE ?', "%#{name}%")) if name.present? }
     scope :event_like, -> (event) { where('event LIKE ?', "%#{event}%") if event.present? }
     scope :difficulty_like, -> (difficulty) { where('difficulty LIKE ?', "%#{difficulty}%") if difficulty.present? }
+    scope :vaultd, -> (vaultd) { where(vaultd:vaultd) if vaultd.present? }
     scope :group2_like, -> (group2) { where('group2 LIKE ?', "%#{group2}%") if group2.present? }
     #scopeを定義
     #scope :メソッド名 -> (引数) { SQL文 }

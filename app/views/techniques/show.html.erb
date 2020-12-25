@@ -7,48 +7,46 @@
             <%= image_tag @technique.image_url, class: "tech-show-image" if @technique.image? %>
         </div>
 
-        <div class="tech-contents">
-            <div class="detail">
-                <h1><%= @technique.event %></h1>
-                <h1><%= @technique.difficulty %></h1>
-                <h1><%= @technique.vaultd %></h1>
-                <h1><%= @technique.group2 %></h1>
-                <h1><%= @technique.subname %></h1>
-            </div>
+        <div class="details">
+            <h1><%= @technique.event %></h1>
+            <h1><%= @technique.difficulty %></h1>
+            <h1><%= @technique.vaultd %></h1>
+            <h1><%= @technique.group2 %></h1>
+            <h1><%= @technique.subname %></h1>
+        </div>
 
-            <div class="buttons">
-                <% if user_signed_in? %>
-                    <div class="add">
-                        <% if @technique.favorited_by?(@user) %>
-                            <%= link_to technique_favorite_path(@technique), method: :delete, :style=>"color:#E0245E;" do %>
-                                <i class="fas fa-heart fa-3x"></i>
-                                <p>技リストからはずす</p>
-                            <% end %>
-                        <% else %>
-                            <%= link_to technique_favorites_path(@technique), method: :post do %>
-                                <i class="far fa-heart fa-3x"></i>
-                                <p>技リストへ登録する</p>
-                            <% end %>
+        <div class="buttons">
+            <% if user_signed_in? %>
+                <div class="add">
+                    <% if @technique.favorited_by?(@user) %>
+                        <%= link_to technique_favorite_path(@technique), method: :delete, :style=>"color:#E0245E;", class: "tech-show-button" do %>
+                            <i class="fas fa-heart fa-3x"></i>
+                            <p>技リストからはずす</p>
                         <% end %>
-                    </div>
-                    <div class="edit">
-                        <% if @technique.user_id == current_user.id %>
-                            <%= link_to edit_technique_path(@technique.id) do %>
-                                <i class="fas fa-edit fa-3x"></i>
-                                <p>技の情報を変更する</p>
-                            <% end %>
+                    <% else %>
+                        <%= link_to technique_favorites_path(@technique), method: :post, class: "tech-show-button" do %>
+                            <i class="far fa-heart fa-3x"></i>
+                            <p>技リストへ登録する</p>
                         <% end %>
-                    </div>
-                    <div class="delete">
-                        <% if @technique.user_id == current_user.id %>
-                            <%= link_to technique_path(@technique.id), method: :delete do %>
-                                <i class="fas fa-trash-alt fa-3x"></i>
-                                <p>技をデータベースから削除</p>
-                            <% end %>
+                    <% end %>
+                </div>
+                <div class="edit">
+                    <% if @technique.user_id == current_user.id %>
+                        <%= link_to edit_technique_path(@technique.id), class: "tech-show-button" do %>
+                            <i class="fas fa-edit fa-3x"></i>
+                            <p>技の情報を変更する</p>
                         <% end %>
-                    </div>
-                <% end %>
-            </div>
+                    <% end %>
+                </div>
+                <div class="delete">
+                    <% if @technique.user_id == current_user.id %>
+                        <%= link_to technique_path(@technique.id), method: :delete, class: "tech-show-button" do %>
+                            <i class="fas fa-trash-alt fa-3x"></i>
+                            <p>技をデータベースから削除</p>
+                        <% end %>
+                    <% end %>
+                </div>
+            <% end %>
         </div>
     </div>
 </div>

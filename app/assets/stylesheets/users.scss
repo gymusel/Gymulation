@@ -10,14 +10,20 @@
 .profile-image-s {
     border-radius: 50%;
     margin-right: 10px;
-    height: 60px;
-    width: 60px;
+    @media screen and (min-width: 1080px){
+        height: 60px;
+        width: 60px;
+        font-size: 4vw;
+    }
 }
 .profile-image-m {
     border-radius: 50%;
     padding-right: 20px;
-    height: 130px;
-    width: 130px;
+    @media screen and (min-width: 1080px){
+        height: 130px;
+        width: 130px;
+        font-size: 8vw;
+    }
 }
 .info-box {
     width: 100%;
@@ -71,9 +77,17 @@
     background-size: cover;
     background-color:rgba(119, 114, 114, 0.8);
     background-blend-mode:lighten;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 50px;
+    @media screen and (min-width: 1080px){
+        width: 170px;
+        height: 170px;
+        margin-bottom: 20px;
+    }
+    @media screen and (max-width: 480px) {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +122,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    // width: 500px;
     margin: 0 auto;
 }
 .login {
@@ -131,7 +145,12 @@
     opacity: 50%;
 }
 .login .field .form {
-    width: 500px;
+    @media screen and (min-width: 1080px){
+        width: 500px;
+    }
+    @media screen and (max-width: 480px) {
+        width: 80vw;
+    }
     height:50px;
     padding:0 10px;
     outline: 0;

@@ -6,26 +6,28 @@
         <%= form_with(scope: :search, url: techniques_path, method: :get, local: true) do |f| %>
             <%= f.radio_button :event, "ゆか" %><%= f.label "ゆか" %>
             <%= f.radio_button :event, "あん馬" %><%= f.label "あん馬" %>
-            <%= f.radio_button :event, "つり輪" %><%= f.label "つり輪" %>
+            <%= f.radio_button :event, "つり輪" %><%= f.label "つり輪" %><br>
             <%= f.radio_button :event, "跳馬" %><%= f.label "跳馬" %>
             <%= f.radio_button :event, "平行棒" %><%= f.label "平行棒" %>
             <%= f.radio_button :event, "鉄棒" %><%= f.label "鉄棒" %>
             <br><br>
             <%= f.radio_button :difficulty, "A難度" %><%= f.label "A難度" %>
             <%= f.radio_button :difficulty, "B難度" %><%= f.label "B難度" %>
-            <%= f.radio_button :difficulty, "C難度" %><%= f.label "C難度" %>
+            <%= f.radio_button :difficulty, "C難度" %><%= f.label "C難度" %><br>
             <%= f.radio_button :difficulty, "D難度" %><%= f.label "D難度" %>
             <%= f.radio_button :difficulty, "E難度" %><%= f.label "E難度" %>
-            <%= f.radio_button :difficulty, "F難度" %><%= f.label "F難度" %>
+            <%= f.radio_button :difficulty, "F難度" %><%= f.label "F難度" %><br>
             <%= f.radio_button :difficulty, "G難度" %><%= f.label "G難度" %>
             <%= f.radio_button :difficulty, "H難度" %><%= f.label "H難度" %>
             <%= f.radio_button :difficulty, "I難度" %><%= f.label "I難度" %>
-            <%= f.radio_button :difficulty, "J難度" %><%= f.label "J難度" %>
+            <br><br>
+            <%= f.number_field :vaultd, min: "0", step: "0.1", id: "field", placeholder: "跳馬の技を検索する場合は技の価値点を入力" %>
             <br><br>
             <%= f.radio_button :group2, "グループI" %><%= f.label "グループI" %>
-            <%= f.radio_button :group2, "グループII" %><%= f.label "グループII" %>
+            <%= f.radio_button :group2, "グループII" %><%= f.label "グループII" %><br>
             <%= f.radio_button :group2, "グループIII" %><%= f.label "グループIII" %>
-            <%= f.radio_button :group2, "グループIV" %><%= f.label "グループIV" %>
+            <%= f.radio_button :group2, "グループIV" %><%= f.label "グループIV" %><br>
+            <%= f.radio_button :group2, "グループV" %><%= f.label "グループV" %>
             <br><br>
             <%= f.text_field :name, class: "form-control fa", id: "field", placeholder: "\uF002 技名を入力", value: @search_params[:name] %>
             <br><br>
