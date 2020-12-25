@@ -83,7 +83,7 @@
                         <% if c.user.image? %>
                             <a href="/users/<%= c.user.id %>"><%= image_tag c.user.image_url, class: "profile-image-s" %></a>
                         <% else %>
-                            <a href="/users/<%= c.user.id %>"><i class="fab fa-battle-net fa-3x profile-image-s"></i></a>
+                            <a href="/users/<%= c.user.id %>"><i class="fab fa-battle-net profile-image-s"></i></a>
                         <% end %>
                         
                         <div class="contents">

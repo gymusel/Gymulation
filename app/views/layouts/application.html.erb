@@ -24,12 +24,12 @@
       
       <div class="header-list">
         <ul class="menu">
-          <li class="menu-first">
+          <li class="menu-first none">
             <%= link_to "選手をさがす", search_users_path %></li>
           </li>
 
           <% if user_signed_in? %>
-            <li class="menu-first min-width">
+            <li class="menu-first min-width none">
               <p class="init-bottom">技</p>
               <ul class="menu-second">
                 <li><%= link_to "技を登録する", techniques_path %></li>
@@ -38,11 +38,11 @@
               </ul>
             </li>
           <% else %>
-            <li class="menu-first"><%= link_to "技をさがす", techniques_path %></li>
+            <li class="menu-first none"><%= link_to "技をさがす", techniques_path %></li>
           <% end %>
 
           <% if user_signed_in? %>
-            <li class="menu-first min-width">
+            <li class="menu-first min-width none">
               <p class="init-bottom">投稿</p>
               <ul class="menu-second">
                 <li><%= link_to "動画を見つける", posts_path %></li>
@@ -50,11 +50,11 @@
               </ul>
             </li>
           <% else %>
-            <li class="menu-first"><%= link_to "動画をさがす", posts_path %></li>
+            <li class="menu-first none"><%= link_to "動画をさがす", posts_path %></li>
           <% end %>
           
           <% if user_signed_in? %>
-            <li class="menu-first min-width">
+            <li class="menu-first min-width none">
               <p class="init-bottom">マイページ</p>
               <ul class="menu-second">
                 <li><%= link_to "マイページ", user_path(current_user.id) %></li>
@@ -142,38 +142,40 @@
 
       <p class="copyright">Copyright © Shigeki Yamaguchi All Rights Reserved.</p>
 
-      <div class="smartmenu">
-        <div class="icon">
-          <%= link_to search_users_path do %>
-            <i class="fas fa-people-arrows fa-3x"></i>
-            <p>選手を探す</p>
-          <% end %>
+      <% if user_signed_in? %>
+        <div class="smartmenu">
+          <div class="icon">
+            <%= link_to search_users_path do %>
+              <i class="fas fa-people-arrows fa-3x"></i>
+              <p>選手を探す</p>
+            <% end %>
+          </div>
+          <div class="icon-border">
+            <%= link_to techniques_path do %>
+              <i class="fas fa-child fa-3x"></i>
+              <p>技を探す</p>
+            <% end %>
+          </div>
+          <div class="icon">
+            <%= link_to new_post_path do %>
+              <i class="far fa-plus-square fa-3x"></i>
+              <p>動画を投稿</p>
+            <% end %>
+          </div>
+          <div class="icon-border">
+            <%= link_to posts_path do %>
+              <i class="fab fa-youtube fa-3x"></i>
+              <p>動画を探す</p>
+            <% end %>
+          </div>
+          <div class="icon">
+            <%= link_to user_path(current_user.id) do %>
+              <i class="fas fa-user-circle fa-3x"></i>
+              <p>マイページ</p>
+            <% end %>
+          </div>
         </div>
-        <div class="icon">
-          <%= link_to techniques_path do %>
-            <i class="fas fa-child fa-3x"></i>
-            <p>技を探す</p>
-          <% end %>
-        </div>
-        <div class="icon">
-          <%= link_to new_post_path do %>
-            <i class="far fa-plus-square fa-3x"></i>
-            <p>動画を投稿</p>
-          <% end %>
-        </div>
-        <div class="icon">
-          <%= link_to posts_path do %>
-            <i class="fab fa-youtube fa-3x"></i>
-            <p>動画を探す</p>
-          <% end %>
-        </div>
-        <div class="icon">
-          <%= link_to posts_path do %>
-            <i class="fas fa-user-circle fa-3x"></i>
-            <p>マイページ</p>
-          <% end %>
-        </div>
-      </div>
+      <% end %>
     </footer>
   </body>
 </html>

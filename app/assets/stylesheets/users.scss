@@ -10,6 +10,11 @@
 .profile-image-s {
     border-radius: 50%;
     margin-right: 10px;
+    @media screen and (max-width: 480px){
+        height: 50px;
+        width: 50px;
+        font-size: 10vw;
+    }
     @media screen and (min-width: 1080px){
         height: 60px;
         width: 60px;
@@ -19,6 +24,11 @@
 .profile-image-m {
     border-radius: 50%;
     padding-right: 20px;
+    @media screen and (max-width: 480px){
+        height: 60px;
+        width: 60px;
+        font-size: 15vw;
+    }
     @media screen and (min-width: 1080px){
         height: 130px;
         width: 130px;

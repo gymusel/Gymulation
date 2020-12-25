@@ -66,18 +66,23 @@ header,footer .links {
     bottom: 0;
     min-width: 100%;
     background-color: rgb(7,11,22);
-    margin: 5px 0;
     display: flex;
     justify-content: center;
     text-align: center;
+    border-top: thin solid white;
     @media screen and (min-width: 1080px) {
         display: none;
     }
 }
 .smartmenu .icon {
-    border: thin solid white;
     width: 20%;
     padding: 6px 0;
+}
+.smartmenu .icon-border {
+    width: 20%;
+    padding: 6px 0;
+    border-left: thin solid white;
+    border-right: thin solid white;
 }
 .smartmenu p {
     font-size: 0.8rem;

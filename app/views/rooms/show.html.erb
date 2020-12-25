@@ -16,7 +16,7 @@
             <% if m.user.image? %>
                 <a href="/users/<%= @another_entry.user.id %>"><%= image_tag m.user.image_url, size: "50x50", class: "profile-image-s" %></a>
             <% else %>
-                <a href="/users/<%= @another_entry.user.id %>"><i class="fab fa-battle-net fa-4x profile-image-s"></i></a>
+                <a href="/users/<%= @another_entry.user.id %>"><i class="fab fa-battle-net profile-image-s"></i></a>
             <% end %>
             <div class="contents">
                 <p class="message"><%= m.message %></p>

@@ -54,6 +54,9 @@
     opacity: 0;
     // transition: 5s;
     // transform: rotateZ( 0deg );
+    @media screen and (max-width: 480px) {
+        font-size: 100px;
+    }
 }
 .title-box:hover i {
     // transform: rotateZ( 3600deg );
